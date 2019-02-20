@@ -1,0 +1,30 @@
+---
+title: Contact
+permalink: /contact/
+author_profile: false
+
+---
+<div id='alert-container'></div>
+<form name="contact" action="https://contact.zak.io" accept-charset="UTF-8" method="post" id="contact_form">
+    <fieldset>
+        <label for='name'>Name</label>
+        <input type='text' id='name' name='name'>
+    </fieldset>
+    <fieldset>
+        <label for='email'>Email address</label>
+        <input type='email' id='email' name='email'>
+    </fieldset>
+    <fieldset>
+        <label for='message'>Message</label>
+        <textarea name='message' id='message' rows='5'></textarea>
+    </fieldset>
+    <fieldset>
+        <div class="g-recaptcha" data-sitekey="6LeatiMTAAAAAJFNHQtcb9jTTGPMzaWHaxbz2jt8"></div>
+        <small class='help-block'>As much as I love computers, I prefer talking to humans. This helps me make sure that you're the latter.</small>
+    </fieldset>
+    <fieldset>
+        <input type='submit' class='btn--primary .btn' value="Send">
+    </fieldset>
+</form>
+
+<script src='https://www.google.com/recaptcha/api.js' async></script>

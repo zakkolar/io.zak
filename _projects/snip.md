@@ -3,7 +3,7 @@ title: Snip
 subtitle: Google Forms Add-on
 date: 2017-05-01
 thumbnail: /assets/images/projects/snip/snip.png
-published: true
+published: false
 buttons:
   -
     title: View/install Snip

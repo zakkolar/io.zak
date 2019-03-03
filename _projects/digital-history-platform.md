@@ -3,7 +3,6 @@ title: Digital History Platform
 subtitle: Ruby (Ruby on Rails)
 date: 2015-11-01
 thumbnail: /assets/images/projects/digital-history-platform/digital-history-platform.jpg
-author_profile: true
 header:
     actions:
       -

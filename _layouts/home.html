@@ -5,9 +5,19 @@ layout: archive
 {{ content }}
 
 <h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
-
-{% for post in paginator.posts %}
+<div style="width:100%">
+{% for post in site.posts limit:4 %}
   {% include archive-single.html type=page.entries_layout  %}
 {% endfor %}
+</div>
 
-{% include paginator.html %}
+<div style="clear:both;">
+
+
+
+
+<p class="text-center">
+  <a class="btn btn--primary" href="/blog/">All posts</a>
+</p>
+
+</div>

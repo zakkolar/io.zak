@@ -1,0 +1,33 @@
+---
+layout: single
+---
+
+{{content}}
+
+<h2 class="section">Certifications</h2>
+
+<div class='text-center'>
+
+    {% for badge in page.badges %}
+    <img src="{{ badge.url | relative_url }}" alt = "{{badge.alt}}" class="badge">
+    {% endfor %}
+
+</div>
+
+
+<h2 class="section">Programming Projects</h2>
+<p class="text-center">Click on a project to learn more about it.</p>
+<div class="grid">
+    {% assign sorted_projects = site.projects | sort:"date" | reverse %}
+
+    {% for project in sorted_projects %}
+    <a href="{{project.url}}">
+        <div class="frame">
+            <img src = "{{project.thumbnail}}">
+        </div>
+        <p>{{ project.title}}</p>
+
+
+    </a>
+    {% endfor %}
+</div>

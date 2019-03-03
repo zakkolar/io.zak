@@ -12,28 +12,173 @@ $global-font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe
 
 
 
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-h1, h2, h3, h4, h5, h6{
-  font-weight:normal;
-}
-
-
-.page__footer{
-  text-align:center;
-}
-
-.page__title{
-  text-align:center;
-}
 
 img.image-circle{
   border-radius: 50%;
 }
 
-img.side-image{
+img.center-image{
   max-width:225px;
   display:block;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 20px;
+}
+
+img.top-thumbnail{
+  max-height: 228px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+
+//.grid__item {
+//  margin-bottom: 2em;
+//
+//  @include breakpoint($small) {
+//    float: left;
+//    width: span(5 of 10);
+//
+//    &:nth-child(2n + 1) {
+//      clear: both;
+//      margin-left: 0;
+//    }
+//
+//    &:nth-child(2n + 2) {
+//      clear: none;
+//      margin-left: gutter(of 10);
+//    }
+//  }
+//
+//  @include breakpoint($medium) {
+//    float: left;
+//    width: span(5 of 10);
+//
+//    &:nth-child(2n + 1) {
+//      clear: both;
+//      margin-left: 0;
+//    }
+//
+//    &:nth-child(2n + 2) {
+//      clear: none;
+//      margin-left: gutter(of 10);
+//    }
+//  }
+//
+//
+//
+//  .page__meta {
+//    margin: 0 0 4px;
+//    font-size: 0.6em;
+//  }
+//
+//  .archive__item-title {
+//    margin-top: 0.5em;
+//    font-size: $type-size-5;
+//  }
+//
+//  .archive__item-excerpt {
+//    display: none;
+//
+//    @include breakpoint($medium) {
+//      display: block;
+//      font-size: $type-size-6;
+//    }
+//  }
+//
+//  .archive__item-teaser {
+//    @include breakpoint($small) {
+//      max-height: 200px;
+//    }
+//
+//    @include breakpoint($medium) {
+//      max-height: 120px;
+//    }
+//  }
+//}
+
+
+img.badge {
+  max-height: 150px;
+  max-width: 200px;
+}
+
+.layout--about{
+  overflow-x: hidden;
+
+
+  h2.section{
+    background-color: $primary-color;
+    padding: 10px;
+    color:$lighter-gray;
+    font-size:2em;
+    margin-left:-100%;
+    text-align:center;
+    margin-right: -100%;
+    padding-left: 100%;
+    padding-right: 100%;
+  }
+}
+
+
+.layout--project{
+  figure > a{
+    max-height:180px;
+    overflow-y:hidden;
+  }
+}
+
+.grid{
+  $medium-image-size: 200px;
+  $large-image-size: 170px;
+  text-align:center;
+  a{
+    display:block;
+    float:left;
+    color: $text-color;
+    text-decoration: none;
+    width: 100%;
+    @include breakpoint($medium){
+      width: span(3 of 6);
+      .frame{
+        min-height: $medium-image-size;
+      }
+
+    }
+    @include breakpoint($large){
+      width: span(3 of 9);
+      .frame{
+        min-height: $large-image-size;
+      }
+    }
+
+  }
+ img{
+    max-width: 100%;
+   max-height: 228px;
+   @include breakpoint($medium) {
+     max-height: $medium-image-size;
+   }
+   @include breakpoint($large){
+     max-height: $large-image-size;
+   }
+
+  }
+}
+
+.taxonomy-list{
+  margin-top: 0;
+  padding: 0;
+ li{
+   list-style:none;
+   margin: 0;
+   padding: 0;
+ }
 }

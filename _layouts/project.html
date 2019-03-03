@@ -1,0 +1,85 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+{% include page__hero.html %}
+{% elsif page.header.video.id and page.header.video.provider %}
+{% include page__hero_video.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+{% unless paginator %}
+{% include breadcrumbs.html %}
+{% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+    {% include sidebar.html %}
+
+    <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+        {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+        {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+        {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
+
+        <div class="page__inner-wrap">
+            {% unless page.header.overlay_color or page.header.overlay_image %}
+            <header>
+                {% if page.thumbnail %}
+                <img src="{{page.thumbnail}}" class="top-thumbnail">
+                {% endif %}
+                {% if page.title %}
+                    <h1 id="page-title" class="page__title" itemprop="headline">
+                        {{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}
+                        {% if page.subtitle %}
+                            <br>
+                            <small>{{page.subtitle}}</small>
+                        {% endif %}
+                    </h1>
+                {% endif %}
+
+                {% if page.read_time %}
+                <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+                {% endif %}
+                {% if page.header.actions %}
+                <p class="text-center">
+                    {% for action in page.header.actions %}
+                    {% if action.url contains "://" %}
+                    {% assign url = action.url %}
+                    {% else %}
+                    {% assign url = action.url | relative_url %}
+                    {% endif %}
+                    <a href="{{ url }}" target="_blank" class="btn btn--info btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+                    {% endfor %}
+                </p>
+                    {% endif %}
+
+            </header>
+            {% endunless %}
+
+            <section class="page__content" itemprop="text">
+                {% if page.toc %}
+                <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
+                    <nav class="toc">
+                        <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
+                        {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" %}
+                    </nav>
+                </aside>
+                {% endif %}
+                {{ content }}
+                {% if page.gallery %}
+                <h2>Screenshots</h2>
+                    {% include gallery %}
+                <p class="text-center">Click on a screenshot to enlarge it.</p>
+                {% endif %}
+            </section>
+
+
+
+        </div>
+
+    </article>
+
+
+</div>

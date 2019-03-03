@@ -52,9 +52,20 @@
   }
 }
 
+.page header{
+  margin-bottom:0.75em;
+}
+
 .page__title {
   margin-top: 0;
   line-height: 1;
+
+  text-align:center;
+  font-size:3em;
+  line-height: 1.2em;
+  small{
+    color: #777777;
+  }
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -132,7 +143,22 @@
   animation: $intro-transition;
   -webkit-animation-delay: 0.25s;
   animation-delay: 0.25s;
-
+  position: relative;
+  text-align:center;
+  &.page__hero--color{
+    color: white;
+  }
+  .page__title{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    &:first-child{
+      padding-top:0.5em;
+    }
+    &:last-child{
+      padding-bottom: 0.5em;
+    }
+  }
   &--overlay {
     position: relative;
     margin-bottom: 2em;
@@ -182,9 +208,13 @@
 }
 
 .page__hero-image {
-  width: 100%;
-  height: auto;
+  width: auto;
+  max-height: 400px;
   -ms-interpolation-mode: bicubic;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .page__hero-caption {

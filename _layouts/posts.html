@@ -4,6 +4,37 @@ layout: archive
 
 {{ content }}
 
+
+<h2>Post Types</h2>
+
+<ul class="taxonomy__index">
+  {% assign categories = site.categories  %}
+  {% for category in categories %}
+  {% capture category_word %}{{ category[0] | strip_newlines }}{% endcapture %}
+  <li>
+    <a href="{{ category_word | slugify | prepend: path_type | prepend: site.category_path.path | relative_url }}" rel="tag">
+      <strong>{{ category_word }}</strong> <span class="taxonomy__count">{{ category[1] | size }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>Topics</h2>
+
+<ul class="taxonomy__index">
+  {% assign tags = site.tags  %}
+  {% for tag in tags %}
+  {% capture tag_word %}{{ tag[0] | strip_newlines }}{% endcapture %}
+  <li>
+    <a href="{{ tag_word | slugify | prepend: path_type | prepend: site.tag_archive.path | relative_url }}" rel="tag">
+      <strong>{{ tag_word }}</strong> <span class="taxonomy__count">{{ tag[1] | size }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+
+<h2>All Posts</h2>
+
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
   {% for year in postsInYear %}
@@ -18,7 +49,7 @@ layout: archive
 {% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
   <section id="{{ year.name }}" class="taxonomy__section">
-    <h2 class="archive__subtitle">{{ year.name }}</h2>
+    <h3 class="archive__subtitle">{{ year.name }}</h3>
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
       {% for post in year.items %}
         {% include archive-single.html type=page.entries_layout %}

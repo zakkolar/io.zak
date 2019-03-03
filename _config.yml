@@ -24,11 +24,16 @@ twitter:
 
 title_separator: "|"
 
+logo: "/assets/images/zak-cartoon.png"
+
 author:
   name: "Zak Kolar"
   avatar: "/assets/images/zak-cartoon.png"
   bio: "Digital Learning Teacher in Waltham, Massachusetts"
   links:
+  - label: "All posts"
+    icon: "fas fa-fw fa-book"
+    url: "/archive/"
   - label: "Twitter"
     icon: "fab fa-fw fa-twitter-square"
     url: "https://twitter.com/ZakKolar"
@@ -70,6 +75,8 @@ footer:
 
 search: true
 
+default_color: "#27A3C9"
+
 defaults:
 # _pages
 - scope:
@@ -77,22 +84,42 @@ defaults:
     type: pages
   values:
     layout: single
-    author_profile: true
+    author_profile: false
+    header:
+      color: "#27A3C9"
 # _posts
 - scope:
     path: ""
     type: posts
   values:
+    permalink: /post/:year/:month/:day/:title:output_ext
     layout: single
     comments: # true
     related: true
-    author_profile: true
+    author_profile: false
     header:
-      show_overlay_excerpt: false
+      color: "#27A3C9"
+- scope:
+    path: "admin"
+  values:
+    sitemap: false
+    # _portfolio
+- scope:
+    path: ""
+    type: projects
+  values:
+    layout: project
+    author_profile: false
+    share: false
 
 
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
 
 # Build settings
 markdown: kramdown
@@ -101,16 +128,20 @@ plugins:
   - jekyll-feed
   - jekyll-archives
 
+
 include: ["_pages"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+   - Gemfile
+   - Gemfile.lock
+   - node_modules
+   - vendor/bundle/
+   - vendor/cache/
+   - vendor/gems/
+   - vendor/ruby/
+   - package.json
+   - package-lock.json
+   - banner.js

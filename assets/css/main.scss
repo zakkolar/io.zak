@@ -182,3 +182,39 @@ img.badge {
    padding: 0;
  }
 }
+
+.license{
+  //max-width: 300px;
+  margin-left: auto; margin-right: auto;
+  font-size:0.75em;
+  display: table;
+  background-color: $lighter-gray;
+  border: solid $gray;
+  padding: 10px;
+  .license-badge, .license-text{
+    //float: left;
+    display: table-cell;
+    vertical-align:middle;
+  }
+
+  .license-badge{
+    font-size:40px;
+    line-height: 40px;
+    padding:0;
+    margin:0;
+  }
+  .license-text{
+    padding-left: 10px;
+    margin: 0;
+    max-width: 300px;
+  }
+}
+
+.download-preview{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:200px;
+  border: solid 1px $lighter-gray;
+  padding:5px;
+}

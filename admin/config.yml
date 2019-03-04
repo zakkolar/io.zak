@@ -24,7 +24,19 @@ collections: # A list of collections the CMS should be able to edit
   - {label: "Title", name: "title", widget: "string", tagname: "h1"}
   - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS"}
   - {label: "Excerpt", name: "excerpt", widget: "text"}
-  - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+  - label: "Header"
+    name: "header"
+    widget: "object"
+    fields:
+      - {label: "Teaser image", name: "teaser", widget: "image", allow_multiple: "false"}
+      - {label: "Image", name: "image", widget: "image", allow_multiple: "false"}
+      - {label: "Image alt", name: "image_description", widget: "text"}
+      - label: "Actions"
+        name: "actions"
+        widget: "list"
+        fields:
+          - {label: "Label", name: "label", widget: "string"}
+          - {label: "URL", name: "url", widget: "string"}
   - {label: "Categories", name: "categories", widget: "list", required: false}
   - {label: "Tags", name: "tags", widget: "list", required: false}
   - {label: "Body", name: "body", widget: "markdown", required: false}

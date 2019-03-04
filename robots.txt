@@ -1,0 +1,7 @@
+---
+layout: null
+---
+{% if jekyll.environment == "staging" %}
+User-agent: *
+Disallow: /
+{% endif %}

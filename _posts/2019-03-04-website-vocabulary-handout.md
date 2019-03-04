@@ -1,17 +1,6 @@
 ---
-title:  "Resource: Website Vocabulary Handout"
-date:   2019-03-04 11:28:23 -0500
-excerpt: "Share this handout with students to introduce parts of a web age and other vocabulary."
-header:
-    teaser: /assets/images/uploads/website-handout.png
-    image: /assets/images/uploads/website-handout.png
-    color: "#87C426"
-    image_description: "Illustration of a web page"
-    actions:
-        - url: https://drive.google.com/file/d/1cSK7uHOm0yLPUBfLmaVdPEEUoJshqUSL/view?usp=sharing
-          label: Download PDF
-        - url: https://drive.google.com/open?id=1Esh-NIwJYAs0B9XIGuBStO-EF_IVk773cGahYOn-VSw
-          label: Google Drawing
+title: 'Resource: Website Vocabulary Handout'
+date: '2019-03-04 00:03:00'
 categories:
   - Resources
 tags:

@@ -27,7 +27,7 @@ layout: default
             {% unless page.header.overlay_color or page.header.overlay_image %}
             <header>
                 {% if page.thumbnail %}
-                <img src="{{page.thumbnail}}" class="top-thumbnail">
+                <img src="{{page.thumbnail}}" {% if page.thumbnail_alt %} alt = "{{page.thumbnail_alt}}" {% endif %} class="top-thumbnail">
                 {% endif %}
                 {% if page.title %}
                     <h1 id="page-title" class="page__title" itemprop="headline">
@@ -43,16 +43,24 @@ layout: default
                 <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
                 {% endif %}
                 {% if page.header.actions %}
-                <p class="text-center">
+                <div style = "margin-left: auto; margin-right: auto; display: table;">
                     {% for action in page.header.actions %}
                     {% if action.url contains "://" %}
                     {% assign url = action.url %}
                     {% else %}
                     {% assign url = action.url | relative_url %}
                     {% endif %}
-                    <a href="{{ url }}" target="_blank" class="btn btn--info btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+                    <div style="display:inline-block; margin-left: 5px; margin-left: 5px; vertical-align:top; text-align:center;">
+                        <a href="{{ url }}" target="_blank" class="btn btn--info btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
+                        {% if action.description %}
+                            <p style="margin:0"  class="text-center">
+                                {{action.description}}
+                            </p>
+                        {% endif %}
+                    </div>
+
                     {% endfor %}
-                </p>
+                </div>
                     {% endif %}
 
             </header>

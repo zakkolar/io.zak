@@ -3,11 +3,13 @@ title: Digital History Platform
 subtitle: Ruby (Ruby on Rails)
 date: 2015-11-01
 thumbnail: /assets/images/projects/digital-history-platform/digital-history-platform.jpg
+thumbnail_alt: "Mockup of a Macbook with the Digital History Platform loaded"
 header:
     actions:
       -
         label: View project website
         url: http://digital-history.demo.zak.io
+        description: Takes a few seconds to "wake up"
       -
         label: View on Github
         url: https://github.com/brandeisapprenticeship/digitalhistory
@@ -16,7 +18,7 @@ gallery:
     image_path: /assets/images/projects/digital-history-platform/screenshots/student-assignment-view.png
     url: /assets/images/projects/digital-history-platform/screenshots/student-assignment-view.png
     title: Student Assignment View
-    alt: "Screenshot of the view students see when completing an assignment. The left shows a read-only "
+    alt: "Screenshot of the view students see when completing an assignment. The left shows a read-only view of the path users took to get to a document. The right shows a form for users to edit the details of the currently selected step in the path."
   -
     image_path: /assets/images/projects/digital-history-platform/screenshots/bookmarklet.png
     url: /assets/images/projects/digital-history-platform/screenshots/bookmarklet.png

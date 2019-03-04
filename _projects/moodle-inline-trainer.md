@@ -3,23 +3,29 @@ title: Moodle Inline Trainer
 subtitle: Moodle Plugin
 date: 2018-05-01
 thumbnail: /assets/images/projects/moodle-inline-trainer/moodle-inline-trainer.png
-buttons:
+thumbnail_alt: "Mockup of a Macbook showing an instance of Moodle with the inline trainer displayed."
+header:
+    actions:
+      -
+        label: Try the demo
+        url: https://trainer.zak.io
+      -
+        label: Read the paper
+        url: /assets/downloads/inline-trainer-thesis.pdf
+      -
+        label: View the source code
+        url: https://github.com/zakkolar/moodle-local_inlinetrainer
+gallery: 
   -
-    title: Try the demo
-    url: https://trainer.zak.io
-  -
-    title: Read the paper
-    url: /assets/downloads/inline-trainer-thesis.pdf
-  -
-    title: View the source code
-    url: https://github.com/zakkolar/moodle-local_inlinetrainer
-screenshots: 
-  -
-    image: screenshots/inline-trainer.png
+    image_path: /assets/images/projects/moodle-inline-trainer/screenshots/inline-trainer.png
+    url: /assets/images/projects/moodle-inline-trainer/screenshots/inline-trainer.png
     title: The inline trainer sits on the side of the webpage and provides the user with step-by-step instructions to complete various tasks.
+    alt: Screenshot of an instance of Moodle with the trainer plugin displayed on the left side of the screen. Completed steps are crossed out, the current step is displayed normally, and future steps are grayed out.
   -
-    image: screenshots/inline-trainer-overlay.png
-    title: Upon getting stuck on a step, the user can click the help button to display a hint as to the completion of the step. 
+    image_path: /assets/images/projects/moodle-inline-trainer/screenshots/inline-trainer-overlay.png
+    url: /assets/images/projects/moodle-inline-trainer/screenshots/inline-trainer-overlay.png
+    title: Upon getting stuck on a step, the user can click the help button to display a hint as to the completion of the step.
+    alt: Screenshot of a Moodle class page. The trainer sits on top of a dark overlay, the most prominent element on the Moodle interface is the calendar which corresponds to the current step in the trainer. 
 ---
 
 I developed the Moodle Inline Trainer as part of my senior honor's thesis at Brandeis University. The plugin sits at the edge of the Moodle interface and provides users a list of actions. If a user requires help completing an action, they may open it from the trainer to see a step-by-step list of instructions to complete said action. The trainer automatically crosses off steps as they are completed, and undoes the crossing off if a user undoes a step.

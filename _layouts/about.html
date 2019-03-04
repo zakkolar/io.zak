@@ -23,7 +23,7 @@ layout: single
     {% for project in sorted_projects %}
     <a href="{{project.url}}">
         <div class="frame">
-            <img src = "{{project.thumbnail}}">
+            <img {% if project.thumbnail_alt %} alt = "{{project.thumbnail_alt}}" {% endif %} src = "{{project.thumbnail}}">
         </div>
         <p>{{ project.title}}</p>
 

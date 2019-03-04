@@ -1,5 +1,3 @@
----
----
 # Everything you need to know about configuring the CMS can be found here:-
 # https://www.netlifycms.org/docs/configuration-options/
 
@@ -25,21 +23,19 @@ collections: # A list of collections the CMS should be able to edit
   - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
   - {label: "Title", name: "title", widget: "string", tagname: "h1"}
   - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:MM:SS"}
+  - {label: "Excerpt", name: "excerpt", widget: "text"}
   - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+  - {label: "Categories", name: "categories", widget: "list", required: false}
+  - {label: "Tags", name: "tags", widget: "list", required: false}
   - {label: "Body", name: "body", widget: "markdown", required: false}
-  - {label: "Categories", name: "categories", widget: "string", required: false}
-  - {label: "Tags", name: "tags", widget: "string", required: false}
   # PAGES
 - name: "page"
   label: "Page"
   folder: "_pages"
   sort: "title:asc"
-  create: true
   slug: "{{slug}}"
   fields:
   - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
   - {label: "Title", name: "title", widget: "string", tagname: "h1"}
-  - {label: "Permalink", name: "permalink", widget: "hidden"}
-  - {label: "Section", name: "section", widget: "hidden", default: "{{name}}"}
-  - {label: "Intro Paragraph", name: "intro_paragraph", widget: "markdown", required: false}
+  - {label: "Permalink", name: "permalink", widget: "string"}
   - {label: "Body", name: "body", widget: "markdown", required: false}

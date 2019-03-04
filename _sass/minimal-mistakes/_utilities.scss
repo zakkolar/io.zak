@@ -178,6 +178,9 @@ body:hover .visually-hidden button {
   position: relative;
   top: -0.1em;
   vertical-align: middle;
+  .masthead-color &{
+    color: $masthead-link-color-light;
+  }
 }
 
 /* social icons*/
@@ -320,6 +323,10 @@ body:hover .visually-hidden button {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 
+  .masthead-color &, .masthead-color &:before, .masthead-color &:after{
+    background: $masthead-link-color-light;
+  }
+
   &:before,
   &:after {
     content: "";
@@ -367,6 +374,15 @@ body:hover .visually-hidden button {
 }
 
 .greedy-nav__toggle:hover {
+
+  .masthead-color &{
+    .navicon,
+    .navicon:before,
+    .navicon:after {
+      background: $masthead-link-color-light-hover;
+    }
+  }
+
   .navicon,
   .navicon:before,
   .navicon:after {
@@ -379,6 +395,8 @@ body:hover .visually-hidden button {
     }
   }
 }
+
+
 
 /*
    Sticky, fixed to top content

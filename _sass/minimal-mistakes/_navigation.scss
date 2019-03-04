@@ -168,17 +168,20 @@
      Priority plus navigation
      ========================================================================== */
 
-.masthead-color .greedy-nav{
+.masthead-color {
 
-  a{
-    color: white;
-    &:hover{
+  .greedy-nav {
+
+    a {
       color: white;
-      border-color: white;
+      &:hover {
+        color: white;
+        border-color: white;
+      }
     }
-  }
-  a .hidden-links{
-    color: $masthead-link-color;
+    .hidden-links a {
+      color: $masthead-link-color;
+    }
   }
 
 }
@@ -203,6 +206,8 @@
     &:hover {
       color: $masthead-link-color-hover;
     }
+
+
 
     &.site-logo {
       margin-left: 0;
@@ -242,6 +247,10 @@
       flex: none;
     }
 
+    .masthead-color & a:before{
+      background: $masthead-link-color-light;
+    }
+
     a {
       position: relative;
 
@@ -258,6 +267,8 @@
         -webkit-transform: scaleX(0) translate3d(0, 0, 0);
         transform: scaleX(0) translate3d(0, 0, 0); // hide
       }
+
+
 
       &:hover:before {
         -webkit-transform: scaleX(1);
@@ -293,6 +304,7 @@
         color: $masthead-link-color-hover;
         background: $navicon-link-color-hover;
       }
+
     }
 
     &:before {

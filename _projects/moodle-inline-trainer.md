@@ -28,7 +28,7 @@ gallery:
     alt: Screenshot of a Moodle class page. The trainer sits on top of a dark overlay, the most prominent element on the Moodle interface is the calendar which corresponds to the current step in the trainer. 
 ---
 
-I developed the Moodle Inline Trainer as part of my senior honor's thesis at Brandeis University. The plugin sits at the edge of the Moodle interface and provides users a list of actions. If a user requires help completing an action, they may open it from the trainer to see a step-by-step list of instructions to complete said action. The trainer automatically crosses off steps as they are completed, and undoes the crossing off if a user undoes a step.
+I developed the Moodle Inline Trainer as part of my senior honors thesis at Brandeis University. The plugin sits at the edge of the Moodle interface and provides users a list of actions. If a user requires help completing an action, they may open it from the trainer to see a step-by-step list of instructions to complete said action. The trainer automatically crosses off steps as they are completed, and undoes the crossing off if a user undoes a step.
 
 The purpose of the trainer is to take advantage of natural interruptions that occur during the learning process. By "watching" the user as the complete tasks and providing immediate feedback, these interruptions are minimized. The trainer allows the user to gain understandings or correct misunderstandings and quickly get back to the task at hand.
 

@@ -4,9 +4,9 @@ date: '2019-03-02 00:03:00'
 excerpt: QR codes make navigating student iPads to a particular website quick and easy.
 header:
   color: '#FFA53B'
-  image: /assets/images/uploads/ipad-qr-code.png
+  image: /assets/images/uploads/2019-03-02-using-qr-codes-navigate-ipad.png
   image_description: Illustration of an iPad with a QR barcode displayed on the screen
-  teaser: /assets/images/uploads/ipad-qr-code.png
+  teaser: /assets/images/uploads/2019-03-02-using-qr-codes-navigate-ipad.png
 categories:
   - Tech Tips
 tags:

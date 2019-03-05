@@ -93,7 +93,7 @@ defaults:
     path: ""
     type: posts
   values:
-    permalink: /post/:year/:month/:day/:title:output_ext
+    permalink: /post/:year/:month/:day/:title/
     layout: single
     comments: # true
     related: true

@@ -15,13 +15,6 @@ tags:
 ---
 # QR Codes: Fast Way to Share Websites to iPads
 
-\#blog/categories/tech tips#
-
-\#blog/tags/iPad
-#blog/tags/QR Code#
-
-\#blog/published
-
 iPads are great devices for quickly accessing information. There's no startup or login time - ideal for class activities, especially with younger kids. But getting 20+ iPads to the same place quickly can seem daunting. Luckily, iPads running recent versions of iOS have built-in QR code readers.
 
 Quick Response (QR) codes are 2 dimensional bar codes that can be scanned by smart phones. They can contain text, phone numbers, and links. They have lots of applications, but one great use is to quickly get students’ iPads to websites without typing. In this post, I’ll show you how to set up QR codes and use them with iOS devices.

@@ -34,6 +34,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Teaser image", name: "teaser", widget: "image", allow_multiple: "false", required: false}
       - {label: "Image", name: "image", widget: "image", allow_multiple: "false", required: false}
       - {label: "Image alt", name: "image_description", widget: "text", required: false}
+      - {label: "Color", name: "color", widget: "text", required: false}
       - label: "Actions"
         name: "actions"
         widget: "list"

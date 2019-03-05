@@ -16,7 +16,7 @@
 title: Zak Kolar
 name: Zak Kolar
 
-description: ""
+description: "Zak Kolar is a Digital Learning Teacher in Waltham, MA. He works with students and teachers to incorporate digital literacy."
 url: ""
 
 twitter:
@@ -87,6 +87,7 @@ defaults:
     author_profile: false
     header:
       color: "#34495e"
+      teaser: "/assets/images/zak-cartoon.png"
 # _posts
 - scope:
     path: ""

@@ -55,6 +55,13 @@
   }
 }
 
+.archive__item-date{
+  font-family: $sans-serif-narrow;
+  margin:0;
+  font-size:0.9em;
+  line-height: initial;
+}
+
 /* remove border*/
 .page__content {
   .archive__item-title {

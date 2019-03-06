@@ -163,4 +163,41 @@ $(document).ready(function() {
         closeOnContentClick: true,
         midClick: true // allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source.
     });
+
+        $('#contact_form').submit(function(e){
+            e.preventDefault();
+            $.ajax({
+                method:$(this).attr('method'),
+                url:$(this).attr('action'),
+                data:$(this).serialize(),
+                success:function(data){
+                    $('#alert-container').html("<div class='notice--success'><p>Message sent!</p></div>");
+                    $('#name').val('');
+                    $('#email').val('');
+                    $('#message').val('');
+                },
+                error:function(data){
+                    var errors=$('<ul></ul>');
+                    var response = JSON.parse(data.responseText);
+                    var item;
+
+                    for(var i=0; i<response.length; i++){
+                        item=response[i];
+                        var error = $('<li>'+item+'</li>');
+                        errors.append(error);
+                    }
+                    var errorAlert=$('<div class="notice--danger"></div>');
+
+                    errorAlert.append("<p>Please correct the following errors:</p>");
+                    errorAlert.append(errors);
+                    $('#alert-container').html(errorAlert);
+                },
+
+                complete:function(){
+                    grecaptcha.reset();
+                    window.scrollTo(0,0);
+                }
+            });
+        });
+
 });

@@ -29,7 +29,8 @@
 
 
   {% if page.header.image %}
-  <img src="{{ img_path }}" alt="{{ image_description }}" class="page__hero-image">
+
+  {% image_tag src=img_path alt=image_description class="page__hero-image" width="712" %}
   {% endif %}
 
   {% if title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}

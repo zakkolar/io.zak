@@ -131,6 +131,7 @@ theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-archives
+  - jekyll-srcset
 
 
 include: ["_pages", "_redirects", "robots.txt"]

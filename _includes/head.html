@@ -12,7 +12,15 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<noscript>
+  <link href="//fonts.googleapis.com/css?family=Lato|Oswald" rel="stylesheet">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</noscript>
+<link rel="preload" href="//fonts.googleapis.com/css?family=Lato|Oswald" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="//cdnjs.cloudflare.com/ajax/libs/cc-icons/1.2.1/css/cc-icons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/loadCSS/2.1.0/loadCSS.min.js" async></script>
 
 <!--[if IE ]>
   <style>

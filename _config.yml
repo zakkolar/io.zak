@@ -122,6 +122,10 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+
+srcset:
+  cache: "/tmp/images"
+
 #paginate: 5 # amount of posts to show
 #paginate_path: /page:num/
 

@@ -126,6 +126,9 @@ collections:
 srcset:
   cache: "/tmp/images"
 
+sass:
+  style: compressed
+
 #paginate: 5 # amount of posts to show
 #paginate_path: /page:num/
 

@@ -30,6 +30,7 @@ collections: # A list of collections the CMS should be able to edit
   - label: "Header"
     name: "header"
     widget: "object"
+    required: false
     fields:
       - {label: "Teaser image", name: "teaser", widget: "image", allow_multiple: "false", required: false}
       - {label: "Image", name: "image", widget: "image", allow_multiple: "false", required: false}

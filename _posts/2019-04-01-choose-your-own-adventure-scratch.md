@@ -1,6 +1,6 @@
 ---
 title: 'Choose Your Own Adventure in Scratch'
-date: '2019-03-15 00:03:00'
+date: '2019-04-01 00:03:00'
 excerpt: Looking to add computer science into ELA? Write and code a choose your own adventure story in Scratch!
 header:
   color: '#04B4CE'

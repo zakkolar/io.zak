@@ -1,15 +1,17 @@
 ---
 title: 'Choose Your Own Adventure in Scratch'
-date: '2019-04-01 00:03:00'
+date: '2019-04-02 00:03:00'
 excerpt: Looking to add computer science into ELA? Write and code a choose your own adventure story in Scratch!
 header:
   color: '#04B4CE'
-  image: /assets/images/uploads/2019-04-01-choose-your-own-adventure-scratch.png
+  image: /assets/images/uploads/2019-04-02-choose-your-own-adventure-scratch.png
   image_description: Illustration of a computer showing code blocks in the style of the Scratch programming language next to an arrow that splits into two different heads.
-  teaser: /assets/images/uploads/2019-04-01-choose-your-own-adventure-scratch.png
+  teaser: /assets/images/uploads/2019-04-02-choose-your-own-adventure-scratch.png
   actions:
     - url: https://scratch.mit.edu/projects/277715851/
       label: Sample Story
+    - url: https://docs.google.com/document/d/1gGxvSxGCMyCmNtGLbfoczH93X2BPpLrCwxigmKe8ep8/edit
+      label: Lesson Plan
     - url: https://drive.google.com/open?id=1NsVkC_4qLwyyLE89fOHrmIfm8MwNqGUL
       label: Project Materials
 categories:
@@ -23,7 +25,9 @@ tags:
 
 While I’d never turn down the chance to implement a full coding curriculum in elementary school, I know it’s impossible to fit that in without taking something else out. Instead, I'm trying to incorporate computer science/computational thinking into the existing curricula wherever I can.
 
-When I saw that Expeditionary Learning has a grade 4 mid-unit assessment where students write a Choose-Your-Own-Adventure story ([G4:M2:U3](https://curriculum.eleducation.org/curriculum/ela/grade-4/module-2/unit-3/lesson-8)), I knew this would be a perfect opportunity for this "Sneaky CS".  Even if you don't use the EL curriculum, this is a great ELA writing project to incorporate Scratch.  [Click here to see a sample Scratch Choose-Your-Own-Adventure-Story](https://scratch.mit.edu/projects/277715851/)
+When I saw that Expeditionary Learning has a grade 4 mid-unit assessment where students write a Choose-Your-Own-Adventure story ([G4:M2:U3](https://curriculum.eleducation.org/curriculum/ela/grade-4/module-2/unit-3/lesson-8)), I knew this would be a perfect opportunity for this "Sneaky CS".  Even if you don't use the EL curriculum, this is a great ELA writing project to incorporate Scratch.  [Click here to see a sample Scratch Choose-Your-Own-Adventure-Story](https://scratch.mit.edu/projects/277715851/).
+
+This project is available as a [lesson plan in Google Docs](https://docs.google.com/document/d/1gGxvSxGCMyCmNtGLbfoczH93X2BPpLrCwxigmKe8ep8/edit#).
 
 ## Coding Background
 This project is ideal for Scratch users of all levels. The basic code required for the story is fairly straight-forward for complete beginners. More advanced students can incorporate fancier features such as animations, sound effects, multiple backdrops, and more.
@@ -63,7 +67,7 @@ Once I had all of the students' project links in a spreadsheet, I shortened the 
 	* Scratch accounts: Students sign into Scratch accounts and save their projects online. Sharing is easier this way, but students need Scratch accounts. To create a whole class worth of accounts (and bypass the need for student email addresses), set up a [Scratch Educator](https://scratch.mit.edu/educators) account.
 * Some students would spend days customizing their sprites to perfection given the opportunity. When students were ready to code their stories, we gave them 5 minutes  at the start to pick out a sprite to be their narrator. We told them they had to live with the sprite as-is until their story was coded. After, they could go back and customize the sprites and add other features.
 * For more complicated stories, advanced students can _nest_ conditionals by placing "ask"/"if" blocks inside of "then" sections. Be careful with this, though - the number of endings you need to write increases exponentially as you nest deeper and deeper!
-![Screenshot of Scratch blocks showing a nested set of conditionals. The story asks the person to choose whether they want to go left or right. Going left asks if they want to climb a tree. If yes, they fall. Otherwise, they walk past the tree. If they chose to go right, they see a lake.](/assets/images/uploads/2019-04-01-choose-your-own-adventure-scratch-nested-if.png)
+![Screenshot of Scratch blocks showing a nested set of conditionals. The story asks the person to choose whether they want to go left or right. Going left asks if they want to climb a tree. If yes, they fall. Otherwise, they walk past the tree. If they chose to go right, they see a lake.](/assets/images/uploads/2019-04-02-choose-your-own-adventure-scratch-nested-if.png)
 
 
 {% include licenses/cc-by-sa.html %}

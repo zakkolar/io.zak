@@ -4,8 +4,11 @@ layout: archive
 
 {{ content }}
 
+{% include email-widget.html %}
 
 <h2>Post Types</h2>
+
+
 
 <ul class="taxonomy__index">
   {% assign categories = site.categories  %}
@@ -32,6 +35,8 @@ layout: archive
   </li>
   {% endfor %}
 </ul>
+
+
 
 <h2>All Posts</h2>
 

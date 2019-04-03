@@ -2,6 +2,7 @@
 title: 'Choose Your Own Adventure in Scratch'
 date: '2019-04-02 00:03:00'
 excerpt: Looking to add computer science into ELA? Write and code a choose your own adventure story in Scratch!
+image: /assets/images/uploads/2019-04-02-choose-your-own-adventure-scratch.png
 header:
   color: '#04B4CE'
   image: /assets/images/uploads/2019-04-02-choose-your-own-adventure-scratch.png

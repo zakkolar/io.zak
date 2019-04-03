@@ -2,6 +2,7 @@
 title: 'QR Codes: Fast Way to Share Websites to iPads'
 date: '2019-03-02 00:03:00'
 excerpt: QR codes make navigating student iPads to a particular website quick and easy.
+image: /assets/images/uploads/2019-03-02-using-qr-codes-navigate-ipad.png
 header:
   color: '#FFA53B'
   image: /assets/images/uploads/2019-03-02-using-qr-codes-navigate-ipad.png

@@ -2,6 +2,7 @@
 title: 'Resource: Website Vocabulary Handout'
 date: '2019-03-04 00:03:00'
 excerpt: "Share this handout with students to introduce parts of a web age and other vocabulary."
+image: /assets/images/uploads/2019-03-04-website-vocabulary-handout.png
 header:
     teaser: /assets/images/uploads/2019-03-04-website-vocabulary-handout.png
     image: /assets/images/uploads/2019-03-04-website-vocabulary-handout.png

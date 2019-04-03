@@ -97,6 +97,7 @@ defaults:
     layout: single
     comments: # true
     related: true
+    show_subscribe: true
     author_profile: false
     header:
       color: "#34495e"

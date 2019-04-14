@@ -9,11 +9,12 @@ module Jekyll
     def render(context)
       text = super
       text.strip!
-      "<script src='https://scratchblocks.github.io/js/scratchblocks-v3.3-min.js'></script>
+      "
+<div class='scratchblocks-embed'>
 <pre class='blocks' aria-label='#{escape text.gsub("'","&#39;").gsub("\"","&quot;")}'>#{text}</pre>
-<p><small><a href='https://scratchblocks.github.io/#?style=scratch3&script="+CGI.escape(text).gsub('+','%20')+"' target='_blank'>Edit code on Scratch Blocks</a></small></p>
-<script type='text/javascript'>scratchblocks.renderMatching('pre.blocks', {style:'scratch3'});</script>
+<p class='scratchblocks-link'><a href='https://scratchblocks.github.io/#?style=scratch3&script="+CGI.escape(text).gsub('+','%20')+"' target='_blank'>Edit code on Scratch Blocks</a></p>
 <noscript>View this page in a web browser to see the Scratch blocks.</noscript>
+</div>
 "
     end
   end

@@ -21,6 +21,7 @@ gem "minimal-mistakes-jekyll"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem 'jekyll-archives'
+  gem 'jekyll-compose'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -30,3 +31,4 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem 'rmagick', '~> 2.16'
 gem 'jekyll-srcset2'
+

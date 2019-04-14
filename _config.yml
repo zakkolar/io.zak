@@ -129,6 +129,20 @@ srcset:
 
 sass:
   style: compressed
+jekyll_compose:
+  post_default_front_matter:
+    excerpt:
+    image:
+    header:
+      color: ''
+      image:
+      image_description:
+      teaser:
+      actions:
+      - url:
+        label:
+    categories:
+    tags:
 
 #paginate: 5 # amount of posts to show
 #paginate_path: /page:num/

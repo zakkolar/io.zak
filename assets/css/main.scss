@@ -230,15 +230,23 @@ img.badge {
   padding:10px;
   min-width: 50%;
   margin:0;
+  position:relative;
 }
 
-p.scratchblocks-link{
-  position:relative;
-  bottom: -10px;
-  margin:0;
+.page__content p.scratchblocks-link{
+  position:absolute;
+  bottom:0;
+  left:0;
   padding:0;
+  margin:-1px;
+
   a, a:hover{
-    text-decoration:none;
+    text-decoration:none !important;
+    font-size:0.6em;
+    background-color:#ccc;
+    padding: 4px;
+    color: #1d1d1d;
+
 
   }
 }

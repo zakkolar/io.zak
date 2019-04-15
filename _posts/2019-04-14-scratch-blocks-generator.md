@@ -78,3 +78,7 @@ If you’re planning to make Scratch materials in Google Docs or Slides, I’ve 
 ![Screenshot that indicates where "Add Blocks to Slide" button is located](/assets/images/uploads/2019-04-14-scratch-blocks-generator-scratch-blocks-add-block.png)
 
 This add-on is attached to the individual document/slideshow you copy. If you’d like to use it in another Docs/Slides file, you’ll need to make another copy. You won’t see the “Scratch Blocks” menu in documents/presentations unless they are copies of the above templates. You’ll need to authorize the script to run in each copy you make.
+
+### Add-on Video:
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cW6-kmZmE_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

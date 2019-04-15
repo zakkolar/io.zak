@@ -66,7 +66,7 @@ If you’re planning to make Scratch materials in Google Docs or Slides, I’ve 
 
 1. Make a copy of the document you want:
 	- [Google Docs Scratch Blocks Template](https://drive.google.com/open?id=16LcvkF80wkyo6qum8t-NkkVKb9cU4567y5zI-88Q9Zc)
-	- [Google Slides - create and edit presentations online, for free.](https://docs.google.com/presentation/d/1cK9vDUce5lw8UbiV2m1xhrH5AifHEhrvzu_jOYHyki0/edit?usp=sharing)
+	- [Google Slides Scratch Blocks Template](https://docs.google.com/presentation/d/1cK9vDUce5lw8UbiV2m1xhrH5AifHEhrvzu_jOYHyki0/edit?usp=sharing)
 2. Click the “Scratch Blocks [app]”, “Show Generator” next to the “Help” menu at the top of the screen. This sometimes takes a few extra seconds to appear after you open the document.
 ![Screenshot of "Scratch Blocks Slides" menu and "Show generator" button ](/assets/images/uploads/2019-04-14-scratch-blocks-generator-scratch-blocks-g-suite-menu.png)
 3. The first time through, you’ll need to give the add-on permission to run. Click your email address and then “Allow”. The permissions just allow the add-on to insert images into your document/presentation. No data is transferred beyond your computer/Google drive.

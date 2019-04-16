@@ -62,7 +62,7 @@ wait (3) seconds
 {% endscratchblocks %}
 
 ## G Suite add-ons
-If you’re planning to make Scratch materials in Google Docs or Slides, I’ve created two add-ons that you can use to generate blocks directly in those apps without having to go to the Scratch Blocks website. To use them, follow these steps:
+If you’re planning to make Scratch materials in Google Docs or Slides, I used Tim Radvan's generator to create two add-ons that you can use to generate blocks directly in those apps. To use them, follow these steps:
 
 1. Make a copy of the document you want:
 	- [Google Docs Scratch Blocks Template](https://drive.google.com/open?id=16LcvkF80wkyo6qum8t-NkkVKb9cU4567y5zI-88Q9Zc)

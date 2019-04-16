@@ -32,3 +32,4 @@ gem "wdm", "~> 0.1.0" if Gem.win_platform?
 gem 'rmagick', '~> 2.16'
 gem 'jekyll-srcset2'
 
+gem 'classifier-reborn'

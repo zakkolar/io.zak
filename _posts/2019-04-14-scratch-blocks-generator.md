@@ -81,4 +81,4 @@ This add-on is attached to the individual document/slideshow you copy. If you’
 
 ### Add-on Video:
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/cW6-kmZmE_A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xkyU9Z17jvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

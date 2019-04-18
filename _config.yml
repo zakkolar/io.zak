@@ -37,6 +37,9 @@ author:
   - label: "Twitter"
     icon: "fab fa-fw fa-twitter-square"
     url: "https://twitter.com/ZakKolar"
+  - label: "Youtube"
+    icon: "fab fa-fw fa-youtube"
+    url: "https://www.youtube.com/channel/UCAp2oZm0CGRtb2U4g9V3OQA"
   - label: "Linkedin"
     icon: "fab fa-fw fa-linkedin"
     url: "https://www.linkedin.com/in/zakkolar/"
@@ -66,12 +69,16 @@ footer:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/ZakKolar"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/channel/UCAp2oZm0CGRtb2U4g9V3OQA"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/zakkolar/"
     - label: "Github"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ZakKolar"
+
 
 search: true
 

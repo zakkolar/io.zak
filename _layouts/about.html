@@ -18,12 +18,13 @@ layout: single
 <h2 class="section">Programming Projects</h2>
 <p class="text-center">Click on a project to learn more about it.</p>
 <div class="grid">
-    {% assign sorted_projects = site.projects | sort:"date" | reverse %}
+    {% assign all_projects = site.projects | concat: site.addons %}
+    {% assign sorted_projects = all_projects | sort:"date" | reverse %}
 
     {% for project in sorted_projects %}
     <a href="{{project.url}}">
         <div class="frame">
-            <img {% if project.thumbnail_alt %} alt = "{{project.thumbnail_alt}}" {% endif %} src = "{{project.thumbnail}}">
+            {% image_tag src=project.thumbnail height="228" alt=project.thumbnail_alt %}
         </div>
         <p>{{ project.title}}</p>
 

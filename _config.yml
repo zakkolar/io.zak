@@ -124,9 +124,23 @@ defaults:
     header:
       color: "#34495e"
 
+- scope:
+    path: ""
+    type: addons
+  values:
+    permalink: /addon/:slug/
+    layout: project
+    author_profile: false
+    share: false
+    header:
+      color: "#34495e"
+
 
 collections:
   projects:
+    output: true
+    permalink: /:collection/:path/
+  addons:
     output: true
     permalink: /:collection/:path/
 

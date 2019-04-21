@@ -27,7 +27,7 @@ layout: default
             {% unless page.header.overlay_color or page.header.overlay_image %}
             <header>
                 {% if page.thumbnail %}
-                <img src="{{page.thumbnail}}" {% if page.thumbnail_alt %} alt = "{{page.thumbnail_alt}}" {% endif %} class="top-thumbnail">
+                <div class="top-thumbnail">{% image_tag src=page.thumbnail height="228" alt=page.thumbnail_alt %}</div>
                 {% endif %}
                 {% if page.title %}
                     <h1 id="page-title" class="page__title" itemprop="headline">

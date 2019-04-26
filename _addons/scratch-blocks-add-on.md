@@ -9,7 +9,7 @@ header:
     actions:
       -
         label: Google Docs Add-on
-        url: https://chrome.google.com/webstore/detail/scratch-blocks-docs/galbhghliiocjcgcopijohnkielhfkip?utm_source=permalink
+        url: https://chrome.google.com/webstore/detail/scratch-blocks-docs/galbhghliiocjcgcopijohnkielhfkip
       -
         label: Google Slides Add-on
         url: https://chrome.google.com/webstore/detail/scratch-blocks-slides/filmpgafcjandjdbidgdfficihfpdjoh

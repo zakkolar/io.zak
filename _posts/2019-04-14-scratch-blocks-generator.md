@@ -67,7 +67,7 @@ If you’re planning to make Scratch materials in Google Docs or Slides, I used 
 
 ### Using the add-on
 
-This tutorial shows the process in Google Docs, but the Slides version works in exactly the same way. Use the “next” and “previous” buttons in the “Try” tab to walk through each step. Click the “view” tab to see all steps at once.
+This tutorial shows the process in Google Docs, but the Slides version works in exactly the same way. Use the “next” and “previous” buttons in the “Try” tab to walk through each step. Click the “view” tab to see all steps at once.  [Open tutorial in new window](http://ior.ad/6yIh){: target="_blank"}.
     
     
   <p style="display: none;text-align: center;">

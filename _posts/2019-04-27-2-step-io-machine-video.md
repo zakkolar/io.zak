@@ -2,12 +2,12 @@
 layout: single
 title: "Video: 2-step Input/ Output Machine"
 date: 2019-04-27 01:00 -0400
-excerpt: 
+excerpt: Play this animation for your students to introduce two-step input/ output machines.
 image: /assets/images/uploads/2019-04-27-2-step-io-machine-video.png
 header:
   color: '#9A4EA7'
   image: /assets/images/uploads/2019-04-27-2-step-io-machine-video.png
-  image_description: 
+  image_description: Illustration of an input/output machine with gears and colorful buttons.
   teaser: /assets/images/uploads/2019-04-27-2-step-io-machine-video-teaser.png
   actions:
   - url: https://www.youtube.com/watch?v=jlx1tMKy3zY

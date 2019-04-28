@@ -15,7 +15,7 @@ layout: archive
   {% for category in categories %}
   {% capture category_word %}{{ category[0] | strip_newlines }}{% endcapture %}
   <li>
-    <a href="{{ category_word | slugify | prepend: path_type | prepend: site.category_path.path | relative_url }}" rel="tag">
+    <a href="{{ category_word | slugify | prepend: path_type | prepend: site.category_archive.path | relative_url }}" rel="tag">
       <strong>{{ category_word }}</strong> <span class="taxonomy__count">{{ category[1] | size }}</span>
     </a>
   </li>

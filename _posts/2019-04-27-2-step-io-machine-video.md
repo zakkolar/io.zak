@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "Video: 2-step Input/ Output Machine"
-date: 2019-04-28 01:00 -0400
+date: 2019-04-27 01:00 -0400
 excerpt: 
 image: /assets/images/uploads/2019-04-27-2-step-io-machine-video.png
 header:

@@ -14,13 +14,13 @@
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
-        <!--<img src=-->
+
           {% if teaser contains "://" %}
             {% assign teaser_url = teaser %}
           {% else %}
         {% assign teaser_url = teaser | relative_url %}
           {% endif %}
-          <!--alt="{{post.header.image_description}}">-->
+
         {% image_tag src=teaser_url width="555" alt=post.header.image_description %}
       </div>
     {% endif %}

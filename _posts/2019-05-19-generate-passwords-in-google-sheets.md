@@ -22,7 +22,9 @@ When creating accounts for younger students, passwords can be a hassle. They sho
 
 But sometimes, I need to create accounts in bulk. Some services (such as [Scratch](https://scratch.mit.edu/educators)) allow you to upload a CSV file with usernames and passwords. This makes the process quick and painless once you have a list of passwords, but manually copying and pasting from DinoPass for an entire class, grade, or school would get extremely tedious.
 
-To help with this, I created an add-on for Google Sheets that generates passwords in a similar style to DinoPass. To use it, make a copy of this [template](https://docs.google.com/spreadsheets/d/1IWk81tkkH7XN9D62qiD8QZ0tG1P6G8BGDmfCuzuXryY/copy). See the following tutorial for a demonstration. [Click here to open the tutorial in a separate window](http://ior.ad/6ABQ){: target="_blank"}.
+## Add-on Template
+
+I created an add-on for Google Sheets that generates passwords in a similar style to DinoPass. To use it, make a copy of this [template](https://docs.google.com/spreadsheets/d/1IWk81tkkH7XN9D62qiD8QZ0tG1P6G8BGDmfCuzuXryY/copy). See the following tutorial for a demonstration. [Click here to open the tutorial in a separate window](http://ior.ad/6ABQ){: target="_blank"}.
 
 <iframe src="https://www.iorad.com/player/1570698/Google-Sheets-Password-Generator-add-on?src=iframe&oembed=1"   width="100%" height="500px" style="width: 100%; height: 500px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen"    mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     

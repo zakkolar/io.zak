@@ -1,0 +1,24 @@
+---
+layout: single
+---
+
+{{content}}
+
+
+
+<div class="grid">
+
+    {% assign all_addons = site.addons %}
+    {% assign sorted_addons = all_addons | sort:"title" %}
+
+{% for addon in sorted_addons %}
+<a href="{{addon.url}}">
+    <div class="frame">
+        {% image_tag src=addon.thumbnail height="228" alt=addon.thumbnail_alt %}
+    </div>
+    <p>{{ addon.title}}</p>
+
+
+</a>
+{% endfor %}
+</div>

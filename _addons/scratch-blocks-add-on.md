@@ -1,5 +1,5 @@
 ---
-title: Scratch Blocks Add-on
+title: Scratch Blocks
 subtitle: Add-on for Google Docs and Slides
 date: 2019-04-20
 thumbnail: /assets/images/addons/scratch-blocks-add-on/scratch-blocks-add-on.png

@@ -44,13 +44,25 @@ The first two lines of code in the file that begin `var adjectives` and `var nou
 
 All of the words in each list must be between the two square brackets, `[` and `]`. Each individual word must be enclosed in quotation marks. Use commas to separate multiple words.
 
+**Example:**
+
+    var adjectives = ["big", "medium", "small"];
+    var nouns = ["dog", "cat", "mouse", "duck"];
+
 ### Preventing certain numbers and combinations of words
 
 You may realize there are specific combinations of words or numbers you want to avoid in your passwords. You can set this on the lines that start `var numbers_to_avoid` (for numbers) and `var combinations_to_avoid` (for words). Whenever the generator creates a password, it will check the adjective-noun combination and the number against these lists. If the words/number it came up with appears in the list, it will try again.
 
 Just like the word lists, all of the words/numbers to avoid must go in between the square brackets, `[` and `]`, and be separated by commas. The numbers do NOT need to be in quotation marks, but the word combinations do. The passwords do not have spaces in them, so be sure to leave out spaces in any word combinations you wish to avoid.
 
-Because the generator pulls from the lists of adjectives and nouns, you only need to consider combinations of words on the list to avoid. For example, if your adjectives list contains only `"tall"` and `"short"`, you would not need to put `"mediumpig"` in your list of combinations to avoid because `"medium"` could never be chosen as a possible word.
+**Example:**
+
+    var numbers_to_avoid = [11, 13, 15, 17, 19];
+    var combinations_to_avoid = ["bigmouse", "smallduck", "mediumdog"];
+
+Because the generator pulls from the lists of adjectives and nouns, you only need to consider combinations of words on the list to avoid. For example, if your adjectives list contains only `"big"` and `"small"`, you would not need to put `"mediumpig"` in your list of combinations to avoid because `"medium"` could never be chosen as a possible word.
+
+The numbers are always between 11 and 99, so you only need to consider numbers to avoid from that range.
 
 ## Conclusion
 

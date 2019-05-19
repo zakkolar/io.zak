@@ -22,13 +22,16 @@ layout: single
     {% assign sorted_projects = all_projects | sort:"date" | reverse %}
 
     {% for project in sorted_projects %}
-    <a href="{{project.url}}">
-        <div class="frame">
-            {% image_tag src=project.thumbnail height="228" alt=project.thumbnail_alt %}
-        </div>
-        <p>{{ project.title}}</p>
+
+        {% unless project.exclude_from_about %}
+        <a href="{{project.url}}">
+            <div class="frame">
+                {% image_tag src=project.thumbnail height="228" alt=project.thumbnail_alt %}
+            </div>
+            <p>{{ project.title}}</p>
 
 
-    </a>
+        </a>
+        {% endunless %}
     {% endfor %}
 </div>

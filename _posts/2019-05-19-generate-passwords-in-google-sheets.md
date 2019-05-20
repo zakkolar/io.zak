@@ -28,8 +28,10 @@ I created an add-on for Google Sheets that generates passwords in a similar styl
 
 <iframe src="https://www.iorad.com/player/1570698/Google-Sheets-Password-Generator-add-on?src=iframe&oembed=1"   width="100%" height="500px" style="width: 100%; height: 500px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen"    mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
     
-## A word of caution
+## A few words of caution
 I've done my best to make sure the word combinations and numbers are school appropriate kid-friendly. However, once your passwords are generated, I'd recommend double checking them before giving them to students. If you notice any problematic combinations, [let me know]({% link _pages/contact.md %}) and I'll revise the code.
+
+These passwords should not be used for high-security purposes. These are more secure than sharing the same password with everyone or assigning passwords in a predictable/numeric way, but they are not on par with modern best security practices because they are generated from a relatively small list of words. Proceed with caution. 
  
 
 ## Customizing the passwords

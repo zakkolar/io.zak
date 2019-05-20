@@ -31,7 +31,7 @@ I created an add-on for Google Sheets that generates passwords in a similar styl
 ## A few words of caution
 I've done my best to make sure the word combinations and numbers are school appropriate kid-friendly. However, once your passwords are generated, I'd recommend double checking them before giving them to students. If you notice any problematic combinations, [let me know]({% link _pages/contact.md %}) and I'll revise the code.
 
-These passwords should not be used for high-security purposes. These are more secure than sharing the same password with everyone or assigning passwords in a predictable/numeric way, but they are not on par with modern best security practices because they are generated from a relatively small list of words. Proceed with caution. 
+These passwords should not be used for high-security purposes. These are more secure than sharing the same password with everyone or assigning passwords in a predictable/numeric way, but they are not on par with modern best security practices. Changing the initial list of words from which passwords are generated (see below) may slightly improve security, but is not a substitute for a strong, randomly-generated password. Proceed with caution. 
  
 
 ## Customizing the passwords

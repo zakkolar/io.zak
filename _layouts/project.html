@@ -54,7 +54,7 @@ layout: default
                         <a href="{{ url }}" target="_blank" class="btn btn--info btn--large">{{ action.label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a>
                         {% if action.description %}
                             <p style="margin:0"  class="text-center">
-                                {{action.description}}
+                                {{action.description | markdownify}}
                             </p>
                         {% endif %}
                     </div>

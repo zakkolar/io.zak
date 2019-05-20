@@ -7,9 +7,9 @@ thumbnail_alt: Illustration of a pair of scissors cutting a piece of paper with 
 published: true
 header: 
     actions:
-    #  -
-    #    label: View/install Snip
-    #    url: https://chrome.google.com/webstore/detail/snip/fmbheokmedhdadonfmcelkjlbgbbnnea
+      -
+        label: View/install Snip
+        url: https://chrome.google.com/webstore/detail/snip/ppijfmkdlgfobjocnnlpddkppfkcnmln
       -
         label: View tutorial
         url: http://ior.ad/6AkS
@@ -31,7 +31,7 @@ gallery:
 
 Snip is an addon for Google Forms to help teachers turn printed worksheets into digital forms. With Snip, users can easily crop and save sections of their worksheets (such as instructions, questions, and answers) to their Google Drive. Users can then insert the cropped portions of the worksheet directly into questions and responses in Google Forms instead of having to type and recreate diagrams.
 
-Snip is not currently available in the addon store. However, domain administrators can install the plugin via the [distribution code on Github](https://github.com/zakkolar/snip/tree/master/dist).
+You can install it from the [Chrome Web Store](https://chrome.google.com/webstore/detail/snip/ppijfmkdlgfobjocnnlpddkppfkcnmln).
 
 ## Tutorial
 

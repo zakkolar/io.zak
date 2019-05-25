@@ -2,6 +2,7 @@
 layout: single
 title: Generate Passwords in Google Sheets
 date: 2019-05-19 13:57 -0400
+last_modified_at: 2019-05-25 00:00 -0400
 excerpt: Use this Google Sheets template to generate fun, kid-friendly passwords.
 image: /assets/images/uploads/2019-05-19-generate-passwords-in-google-sheets.png
 header:
@@ -33,6 +34,12 @@ I've done my best to make sure the word combinations and numbers are school appr
 
 These passwords should not be used for high-security purposes. These are more secure than sharing the same password with everyone or assigning passwords in a predictable/numeric way, but they are not on par with modern best security practices. Changing the initial list of words from which passwords are generated (see below) may slightly improve security, but is not a substitute for a strong, randomly-generated password. Proceed with caution. 
  
+ 
+## Preventing duplicates
+
+Craig Ham pointed out that in the original version of the template, it was possible to get duplicate passwords when generating in bulk. I found about 5-6 duplicates per 1,000 passwords when I tested it. I've updated the code to check for and prevent duplicates when generating passwords. If you previously copied the old version, you'll need to make a new copy to get the updates.
+
+Duplicates are still possible if you generate passwords at several different times unless you replace the previous passwords. If you're familiar with Google Sheets formulas, you can use `unique()` and `vlookup()` to write a solution that works for your sheet. If you aren't familiar with formulas or want a faster solution, check out this [add-on](https://chrome.google.com/webstore/detail/remove-duplicates/bckmhokpcdnhhjldhhfpebhdfipmlbog?utm_source=permalink) (not developed by me). 
 
 ## Customizing the passwords
 

@@ -72,8 +72,6 @@ GEM
     jekyll-include-cache (0.1.0)
       jekyll (~> 3.3)
     jekyll-paginate (1.1.0)
-    jekyll-postfiles (3.0.0)
-      jekyll (~> 3.6)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.2.0)
@@ -144,7 +142,6 @@ DEPENDENCIES
   jekyll-archives
   jekyll-compose
   jekyll-feed (~> 0.6)
-  jekyll-postfiles
   jekyll-srcset2
   minimal-mistakes-jekyll
   rmagick (~> 2.16)

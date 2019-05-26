@@ -3,12 +3,12 @@ layout: single
 title: Snip Materials into Google Forms
 date: 2019-05-26 11:31 -0400
 excerpt: Use this Google Forms add-on to quickly crop sections of images for use in Google Forms 
-image: _posts/2019-05-26-snip-materials-into-google-forms/teaser.png
+image: assets/images/posts/2019-05-26-snip-materials-into-google-forms/teaser.png
 header:
   color: '#FCC42C'
-  image:  _posts/2019-05-26-snip-materials-into-google-forms/teaser.png
+  image:  assets/images/posts/2019-05-26-snip-materials-into-google-forms/teaser.png
   image_description: Illustration of a pair of scissors cutting a piece of paper with shapes on it
-  teaser:  _posts/2019-05-26-snip-materials-into-google-forms/teaser.png
+  teaser:  assets/images/posts/2019-05-26-snip-materials-into-google-forms/teaser.png
   actions:
   - url: https://chrome.google.com/webstore/detail/snip/ppijfmkdlgfobjocnnlpddkppfkcnmln
     label: View/install Snip

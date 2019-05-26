@@ -2,12 +2,12 @@
 title: 'Choose Your Own Adventure in Scratch'
 date: '2019-04-02 00:03:00'
 excerpt: Looking to add computer science into ELA? Write and code a choose your own adventure story in Scratch!
-image: /assets/images/uploads/2019-04-02-choose-your-own-adventure-scratch.png
+image: _posts/2019-04-02-choose-your-own-adventure-scratch/teaser.png
 header:
   color: '#04B4CE'
-  image: /assets/images/uploads/2019-04-02-choose-your-own-adventure-scratch.png
+  image: _posts/2019-04-02-choose-your-own-adventure-scratch/teaser.png
   image_description: Illustration of a computer showing code blocks in the style of the Scratch programming language next to an arrow that splits into two different heads.
-  teaser: /assets/images/uploads/2019-04-02-choose-your-own-adventure-scratch.png
+  teaser: _posts/2019-04-02-choose-your-own-adventure-scratch/teaser.png
   actions:
     - url: https://scratch.mit.edu/projects/277715851/
       label: Sample Story
@@ -68,7 +68,7 @@ Once I had all of the students' project links in a spreadsheet, I shortened the 
 	* Scratch accounts: Students sign into Scratch accounts and save their projects online. Sharing is easier this way, but students need Scratch accounts. To create a whole class worth of accounts (and bypass the need for student email addresses), set up a [Scratch Educator](https://scratch.mit.edu/educators) account.
 * Some students would spend days customizing their sprites to perfection given the opportunity. When students were ready to code their stories, we gave them 5 minutes  at the start to pick out a sprite to be their narrator. We told them they had to live with the sprite as-is until their story was coded. After, they could go back and customize the sprites and add other features.
 * For more complicated stories, advanced students can _nest_ conditionals by placing "ask"/"if" blocks inside of "then" sections. Be careful with this, though - the number of endings you need to write increases exponentially as you nest deeper and deeper!
-![Screenshot of Scratch blocks showing a nested set of conditionals. The story asks the person to choose whether they want to go left or right. Going left asks if they want to climb a tree. If yes, they fall. Otherwise, they walk past the tree. If they chose to go right, they see a lake.](/assets/images/uploads/2019-04-02-choose-your-own-adventure-scratch-nested-if.png)
+![Screenshot of Scratch blocks showing a nested set of conditionals. The story asks the person to choose whether they want to go left or right. Going left asks if they want to climb a tree. If yes, they fall. Otherwise, they walk past the tree. If they chose to go right, they see a lake.](scratch-nested-if.png)
 
 
 {% include licenses/cc-by-sa.html %}

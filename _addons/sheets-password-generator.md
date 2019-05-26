@@ -19,7 +19,7 @@ header:
         url: https://github.com/zakkolar/google-sheets-password-generator
 ---
 
-This is an add-on for Google Sheets to quickly generate kid-friendly passwords inspired by [DinoPass](https://dinopass.com/) by [Codemoji](https://www.codemoji.com/). To use it, make a copy of the [template](https://docs.google.com/spreadsheets/d/1IWk81tkkH7XN9D62qiD8QZ0tG1P6G8BGDmfCuzuXryY/copy) and follow the tutorial below. If you'd like to customize the way the passwords are generated, see "Customizing the passwords" in this [blog post]({% link _posts/2019-05-19-generate-passwords-in-google-sheets.md %}#customizing-the-passwords).
+This is an add-on for Google Sheets to quickly generate kid-friendly passwords inspired by [DinoPass](https://dinopass.com/) by [Codemoji](https://www.codemoji.com/). To use it, make a copy of the [template](https://docs.google.com/spreadsheets/d/1IWk81tkkH7XN9D62qiD8QZ0tG1P6G8BGDmfCuzuXryY/copy) and follow the tutorial below. If you'd like to customize the way the passwords are generated, see "Customizing the passwords" in this [blog post]({% link _posts/2019-05-19-generate-passwords-in-google-sheets/2019-05-19-generate-passwords-in-google-sheets.md %}#customizing-the-passwords).
 
 ## Tutorial
 
@@ -30,7 +30,7 @@ This is an add-on for Google Sheets to quickly generate kid-friendly passwords i
 ## A few words of caution
 I've done my best to make sure the word combinations and numbers are school appropriate kid-friendly. However, once your passwords are generated, I'd recommend double checking them before giving them to students. If you notice any problematic combinations, [let me know]({% link _pages/contact.md %}) and I'll revise the code.
 
-These passwords should not be used for high-security purposes. These are more secure than sharing the same password with everyone or assigning passwords in a predictable/numeric way, but they are not on par with modern best security practices. Changing the initial list of words from which passwords are generated ([see this post]({% link _posts/2019-05-19-generate-passwords-in-google-sheets.md %}#customizing-the-passwords)) may slightly improve security, but is not a substitute for a strong, randomly-generated password. Proceed with caution. 
+These passwords should not be used for high-security purposes. These are more secure than sharing the same password with everyone or assigning passwords in a predictable/numeric way, but they are not on par with modern best security practices. Changing the initial list of words from which passwords are generated ([see this post]({% link _posts/2019-05-19-generate-passwords-in-google-sheets/2019-05-19-generate-passwords-in-google-sheets.md %}#customizing-the-passwords)) may slightly improve security, but is not a substitute for a strong, randomly-generated password. Proceed with caution. 
 
 ## Preventing duplicates
 

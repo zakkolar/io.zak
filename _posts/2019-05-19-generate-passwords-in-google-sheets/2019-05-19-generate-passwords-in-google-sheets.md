@@ -4,12 +4,12 @@ title: Generate Passwords in Google Sheets
 date: 2019-05-19 13:57 -0400
 last_modified_at: 2019-05-25 00:00 -0400
 excerpt: Use this Google Sheets template to generate fun, kid-friendly passwords.
-image: /assets/images/uploads/2019-05-19-generate-passwords-in-google-sheets.png
+image: _posts/2019-05-19-generate-passwords-in-google-sheets/teaser.png
 header:
   color: '#F57380'
-  image: /assets/images/uploads/2019-05-19-generate-passwords-in-google-sheets.png
+  image: _posts/2019-05-19-generate-passwords-in-google-sheets/teaser.png
   image_description: Illustration of a spreadsheet with passwords in each cell
-  teaser: /assets/images/uploads/2019-05-19-generate-passwords-in-google-sheets.png
+  teaser: _posts/2019-05-19-generate-passwords-in-google-sheets/teaser.png
   actions:
   - url: https://docs.google.com/spreadsheets/d/1IWk81tkkH7XN9D62qiD8QZ0tG1P6G8BGDmfCuzuXryY/copy 
     label: Google Sheets Template
@@ -45,7 +45,7 @@ Duplicates are still possible if you generate passwords at several different tim
 
 If you don't mind getting your hands a little bit dirty, you can customize the code that generates the passwords. It's not as scary as that might sound! First, go to the Tools menu and click Script editor.
 
-![Screenshot of the tools menu in Google Sheets with a cursor hovering over the Script editor option](/assets/images/uploads/2019-05-19-generate-passwords-in-google-sheets-tools-script-editor.png)
+![Screenshot of the tools menu in Google Sheets with a cursor hovering over the Script editor option](tools-script-editor.png)
 
 This will open a new window that shows the JavaScript source code for the plugin. The lines you need to change to customize the passwords are at the top of the file.
 

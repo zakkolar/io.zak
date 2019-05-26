@@ -13,7 +13,7 @@ header:
   actions:
   - url: https://docs.google.com/spreadsheets/d/1IWk81tkkH7XN9D62qiD8QZ0tG1P6G8BGDmfCuzuXryY/copy 
     label: Google Sheets Template
-categories: Resources
+categories: Add-ons
 tags:
   - Google Sheets
   - Add-on

@@ -17,7 +17,7 @@ header:
     - url: https://chrome.google.com/webstore/detail/scratch-blocks-slides/filmpgafcjandjdbidgdfficihfpdjoh
       label: Slides Add-on
 categories:
-  - Resources
+  - Add-ons
 tags:
   - Scratch
 ---

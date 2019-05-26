@@ -17,6 +17,7 @@ categories: Add-ons
 tags:
   - Google Sheets
   - Add-on
+add-on: sheets-password-generator
 ---
 
 When creating accounts for younger students, passwords can be a hassle. They should be unique, hard to guess, and easy to type. To help solve this problem, [Codemoji](https://www.codemoji.com/) built a tool called [DinoPass](https://dinopass.com/) to generate passwords that meet all these requirements. Each password follows the format NounAdjectiveNumber (all lowercase). When I'm creating a handful of accounts for kids to use, this is my go-to source for passwords. It's quick and easy, and the kids absolutely love the crazy combinations it creates.

@@ -20,6 +20,7 @@ categories:
   - Add-ons
 tags:
   - Scratch
+add-on: scratch-blocks-add-on 
 ---
 
 

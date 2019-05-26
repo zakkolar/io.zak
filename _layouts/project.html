@@ -76,10 +76,37 @@ layout: default
                 </aside>
                 {% endif %}
                 {{ content }}
+
                 {% if page.gallery %}
-                <h2>Screenshots</h2>
+                <div class="cf">
+                    {% markdown %}
+## Screenshots
+                    {% endmarkdown %}
                     {% include gallery %}
-                <p class="text-center">Click on a screenshot to enlarge it.</p>
+                    <p class="text-center">Click on a screenshot to enlarge it.</p>
+                </div>
+
+                {% endif %}
+
+                {% assign posts = site.posts | where: "add-on",page.slug %}
+
+                {% if posts.size > 0 %}
+
+                {% markdown %}
+## Blog posts about this add-on
+                {% endmarkdown %}
+
+
+
+                <div class="entries-grid cf">
+
+                    {% for post in posts %}
+                    {% include archive-single.html type="grid"  %}
+                    {% endfor %}
+
+                </div>
+
+
                 {% endif %}
             </section>
 

@@ -140,7 +140,7 @@ defaults:
     type: addons
   values:
     permalink: /addon/:slug/
-    layout: project
+    layout: add-on
     author_profile: false
     share: false
     header:

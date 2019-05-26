@@ -17,6 +17,7 @@ header:
 categories: Add-ons
 tags:
   - Google Forms
+add-on: snip
 ---
 
 Google Forms is an awesome tool for creating online assignments. It's easy to set up and share. The responses are stored in one convenient place. It's a great option for digitizing previously paper-based assignments and quizzes.

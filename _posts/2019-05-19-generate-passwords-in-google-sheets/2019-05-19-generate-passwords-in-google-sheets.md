@@ -27,8 +27,125 @@ But sometimes, I need to create accounts in bulk. Some services (such as [Scratc
 
 I created an add-on for Google Sheets that generates passwords in a similar style to DinoPass. To use it, make a copy of this [template](https://docs.google.com/spreadsheets/d/1IWk81tkkH7XN9D62qiD8QZ0tG1P6G8BGDmfCuzuXryY/copy). See the following tutorial for a demonstration. [Click here to open the tutorial in a separate window](http://ior.ad/6ABQ){: target="_blank"}.
 
-<iframe src="https://www.iorad.com/player/1570698/Google-Sheets-Password-Generator-add-on?src=iframe&oembed=1"   width="100%" height="500px" style="width: 100%; height: 500px" frameborder="0" webkitallowfullscreen="webkitallowfullscreen"    mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe>
-    
+<p style="display: none;text-align: center;">
+<i style="font-style: italic; font-weight: bold; color: #CCCCCC; font-size: 18px;">9 STEPS</i>
+</p>
+
+<br/>
+<div style="display: none;">
+<p style="font-size: 18px;">
+<b style="font-weight: normal; width: 40px; height: 40px; display: inline-block; border: 2px solid #CCCCCC; color: #CCCCCC; border-radius: 100%; text-align: center; box-sizing: border-box; padding-left: 1px; margin-right: 24px; position: absolute;">
+  <span style="line-height: 37px;">1</span>
+</b>
+<span style="display: inline-block; margin-left: 64px; margin-top: 8px; line-height: 23px;">Make a copy of the <a href="https://docs.google.com/spreadsheets/d/1IWk81tkkH7XN9D62qiD8QZ0tG1P6G8BGDmfCuzuXryY/copy" title="Link: https://docs.google.com/spreadsheets/d/1IWk81tkkH7XN9D62qiD8QZ0tG1P6G8BGDmfCuzuXryY/copy">Password Generator Template</a>.</span>
+</p>
+<p style="text-align: center; padding-bottom: 42px; padding-top: 20px;">
+<img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1570698&step_number=1&width=800&height=600&mobile_width=450&mobile_height=400" style="padding: 4px; border: none;" alt="Step 1 image" />
+</p>
+
+<p style="font-size: 18px;">
+<b style="font-weight: normal; width: 40px; height: 40px; display: inline-block; border: 2px solid #CCCCCC; color: #CCCCCC; border-radius: 100%; text-align: center; box-sizing: border-box; padding-left: 1px; margin-right: 24px; position: absolute;">
+  <span style="line-height: 37px;">2</span>
+</b>
+<span style="display: inline-block; margin-left: 64px; margin-top: 8px; line-height: 23px;">Set up your spreadsheet however you'd like (e.g. type a column header for passwords)</span>
+</p>
+<p style="text-align: center; padding-bottom: 42px; padding-top: 20px;">
+<img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1570698&step_number=2&width=800&height=600&mobile_width=450&mobile_height=400" style="padding: 4px; border: none;" alt="Step 2 image" />
+</p>
+
+<p style="font-size: 18px;">
+<b style="font-weight: normal; width: 40px; height: 40px; display: inline-block; border: 2px solid #CCCCCC; color: #CCCCCC; border-radius: 100%; text-align: center; box-sizing: border-box; padding-left: 1px; margin-right: 24px; position: absolute;">
+  <span style="line-height: 37px;">3</span>
+</b>
+<span style="display: inline-block; margin-left: 64px; margin-top: 8px; line-height: 23px;">Select the cells you'd like to fill with passwords. You can select as many rows/columns as you'd like.</span>
+</p>
+<p style="text-align: center; padding-bottom: 42px; padding-top: 20px;">
+<img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1570698&step_number=3&width=800&height=600&mobile_width=450&mobile_height=400" style="padding: 4px; border: none;" alt="Step 3 image" />
+</p>
+
+<p style="font-size: 18px;">
+<b style="font-weight: normal; width: 40px; height: 40px; display: inline-block; border: 2px solid #CCCCCC; color: #CCCCCC; border-radius: 100%; text-align: center; box-sizing: border-box; padding-left: 1px; margin-right: 24px; position: absolute;">
+  <span style="line-height: 37px;">3b</span>
+</b>
+<span style="display: inline-block; margin-left: 64px; margin-top: 8px; line-height: 23px;">Drop</span>
+</p>
+<p style="text-align: center; padding-bottom: 42px; padding-top: 20px;">
+<img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1570698&step_number=3b&width=800&height=600&mobile_width=450&mobile_height=400" style="padding: 4px; border: none;" alt="Step 3b image" />
+</p>
+
+<p style="font-size: 18px;">
+<b style="font-weight: normal; width: 40px; height: 40px; display: inline-block; border: 2px solid #CCCCCC; color: #CCCCCC; border-radius: 100%; text-align: center; box-sizing: border-box; padding-left: 1px; margin-right: 24px; position: absolute;">
+  <span style="line-height: 37px;">4</span>
+</b>
+<span style="display: inline-block; margin-left: 64px; margin-top: 8px; line-height: 23px;">Click <b style="font-weight: bold; color: #FF2B6B;">Password Generator<br></b>This menu sometimes takes a few extra seconds to show up after the spreadsheet loads. If you don't see it for a while, refresh the page.<b style="font-weight: bold; color: #FF2B6B;"><br></b></span>
+</p>
+<p style="text-align: center; padding-bottom: 42px; padding-top: 20px;">
+<img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1570698&step_number=4&width=800&height=600&mobile_width=450&mobile_height=400" style="padding: 4px; border: none;" alt="Step 4 image" />
+</p>
+
+<p style="font-size: 18px;">
+<b style="font-weight: normal; width: 40px; height: 40px; display: inline-block; border: 2px solid #CCCCCC; color: #CCCCCC; border-radius: 100%; text-align: center; box-sizing: border-box; padding-left: 1px; margin-right: 24px; position: absolute;">
+  <span style="line-height: 37px;">5</span>
+</b>
+<span style="display: inline-block; margin-left: 64px; margin-top: 8px; line-height: 23px;">Click <b style="font-weight: bold; color: #FF2B6B;">Create passwords</b></span>
+</p>
+<p style="text-align: center; padding-bottom: 42px; padding-top: 20px;">
+<img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1570698&step_number=5&width=800&height=600&mobile_width=450&mobile_height=400" style="padding: 4px; border: none;" alt="Step 5 image" />
+</p>
+
+<p style="font-size: 18px;">
+<b style="font-weight: normal; width: 40px; height: 40px; display: inline-block; border: 2px solid #CCCCCC; color: #CCCCCC; border-radius: 100%; text-align: center; box-sizing: border-box; padding-left: 1px; margin-right: 24px; position: absolute;">
+  <span style="line-height: 37px;">6</span>
+</b>
+<span style="display: inline-block; margin-left: 64px; margin-top: 8px; line-height: 23px;">The first time you run the add-on, you'll need to authorize it.<br><br>Click <b style="font-weight: bold; color: #FF2B6B;">Continue</b></span>
+</p>
+<p style="text-align: center; padding-bottom: 42px; padding-top: 20px;">
+<img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1570698&step_number=6&width=800&height=600&mobile_width=450&mobile_height=400" style="padding: 4px; border: none;" alt="Step 6 image" />
+</p>
+
+<p style="font-size: 18px;">
+<b style="font-weight: normal; width: 40px; height: 40px; display: inline-block; border: 2px solid #CCCCCC; color: #CCCCCC; border-radius: 100%; text-align: center; box-sizing: border-box; padding-left: 1px; margin-right: 24px; position: absolute;">
+  <span style="line-height: 37px;">7</span>
+</b>
+<span style="display: inline-block; margin-left: 64px; margin-top: 8px; line-height: 23px;">Click your email address</span>
+</p>
+<p style="text-align: center; padding-bottom: 42px; padding-top: 20px;">
+<img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1570698&step_number=7&width=800&height=600&mobile_width=450&mobile_height=400" style="padding: 4px; border: none;" alt="Step 7 image" />
+</p>
+
+<p style="font-size: 18px;">
+<b style="font-weight: normal; width: 40px; height: 40px; display: inline-block; border: 2px solid #CCCCCC; color: #CCCCCC; border-radius: 100%; text-align: center; box-sizing: border-box; padding-left: 1px; margin-right: 24px; position: absolute;">
+  <span style="line-height: 37px;">8</span>
+</b>
+<span style="display: inline-block; margin-left: 64px; margin-top: 8px; line-height: 23px;">Scroll down and click <b style="font-weight: bold; color: #FF2B6B;">Allow</b></span>
+</p>
+<p style="text-align: center; padding-bottom: 42px; padding-top: 20px;">
+<img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1570698&step_number=8&width=800&height=600&mobile_width=450&mobile_height=400" style="padding: 4px; border: none;" alt="Step 8 image" />
+</p>
+
+<p style="font-size: 18px;">
+<b style="font-weight: normal; width: 40px; height: 40px; display: inline-block; border: 2px solid #CCCCCC; color: #CCCCCC; border-radius: 100%; text-align: center; box-sizing: border-box; padding-left: 1px; margin-right: 24px; position: absolute;">
+  <span style="line-height: 37px;">9</span>
+</b>
+<span style="display: inline-block; margin-left: 64px; margin-top: 8px; line-height: 23px;">Now you'll see a list of fun, unique passwords in the cells you selected.</span>
+</p>
+<p style="text-align: center; padding-bottom: 42px; padding-top: 20px;">
+<img src="https://www.iorad.com/api/tutorial/stepScreenshot?tutorial_id=1570698&step_number=9&width=800&height=600&mobile_width=450&mobile_height=400" style="padding: 4px; border: none;" alt="Step 9 image" />
+</p>
+</div>
+<h3 style="display: none;font-size: 18px; padding-bottom: 20px; color: #000000">
+Here's an interactive tutorial for the visual learners
+</h3>
+<p style="display: none;">
+<a href="https://www.iorad.com/player/1570698/Google-Sheets-Password-Generator-add-on">https://www.iorad.com/player/1570698/Google-Sheets-Password-Generator-add-on</a>
+</p>
+<p style="border: 0; min-width: 100%; margin-bottom: 0; height: 501px;">
+<iframe src="https://www.iorad.com/player/1570698/Google-Sheets-Password-Generator-add-on?src=iframe&oembed=1"
+    width="100%" height="500px"
+    style="width: 100%; height: 500px"
+    frameborder="0" webkitallowfullscreen="webkitallowfullscreen"
+    mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe></p>
+
 ## A few words of caution
 I've done my best to make sure the word combinations and numbers are school appropriate kid-friendly. However, once your passwords are generated, I'd recommend double checking them before giving them to students. If you notice any problematic combinations, [let me know]({% link _pages/contact.md %}) and I'll revise the code.
 

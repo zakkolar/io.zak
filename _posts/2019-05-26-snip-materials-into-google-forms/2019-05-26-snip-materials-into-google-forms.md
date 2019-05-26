@@ -20,13 +20,13 @@ tags:
   - Snip Add-on
 ---
 
-Google Forms is an awesome tool for creating online assignments. It's easy to set up and share and the responses are stored in one convenient place. It's a great option for digitizing previously paper-based assignments and quizzes.
+Google Forms is an awesome tool for creating online assignments. It's easy to set up and share. The responses are stored in one convenient place. It's a great option for digitizing previously paper-based assignments and quizzes.
 
 However, print materials that have images or diagrams can pose a problem for Google Forms. Maybe students need to refer to a diagram of a cell to answer a question or choose the graph that best represents a given equation. If these graphics exist on a piece of paper or even a digital version of an assignment, how can you get them into Google Forms in an efficient way?
 
 ## Snip add-on
 
-My Snip add-on helps you quickly "snip" one or more sections of an image to use in Google Forms. The process is pretty simple:
+My Snip add-on helps you quickly "snip" one or more sections of an image to use in Google Forms. The process is simple:
 
 1. Choose an image of an existing assignment from your Google Drive (or upload a new one)
 2. Use the snipping tool to save one or more images/diagrams from your assignment into your Google Drive

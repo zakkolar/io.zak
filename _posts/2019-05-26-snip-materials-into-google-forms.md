@@ -30,7 +30,7 @@ My Snip add-on helps you quickly "snip" one or more sections of an image to use 
 
 1. Choose an image of an existing assignment from your Google Drive (or upload a new one)
 2. Use the snipping tool to save one or more images/diagrams from your assignment into your Google Drive
-![Screenshot of the Snip tool. One question is highlighted by a rectangle in order to be snipped.](snipper.jpg)
+![Screenshot of the Snip tool. One question is highlighted by a rectangle in order to be snipped.](/assets/images/posts/2019-05-26-snip-materials-into-google-forms/snipper.jpg)
 3. Add the images to the questions/response options on your Google Form
 
 PDFs aren't supported, but there are [online tools](https://pdf2jpg.net/) that you can use to convert PDFs to images to use with Snip.

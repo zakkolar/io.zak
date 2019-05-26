@@ -3,12 +3,12 @@ layout: single
 title: "Video: 2-step Input/ Output Machine"
 date: 2019-04-27 01:00 -0400
 excerpt: Play this animation for your students to introduce two-step input/ output machines.
-image: _posts/2019-04-27-2-step-io-machine-video/image.png
+image: assets/images/posts/2019-04-27-2-step-io-machine-video/image.png
 header:
   color: '#9A4EA7'
-  image: _posts/2019-04-27-2-step-io-machine-video/image.png
+  image: assets/images/posts/2019-04-27-2-step-io-machine-video/image.png
   image_description: Illustration of an input/output machine with gears and colorful buttons.
-  teaser: _posts/2019-04-27-2-step-io-machine-video/teaser.png
+  teaser: assets/images/posts/2019-04-27-2-step-io-machine-video/teaser.png
   actions:
   - url: https://www.youtube.com/watch?v=jlx1tMKy3zY
     label: Watch Video (YouTube)
@@ -30,6 +30,6 @@ I’ve been working with the math coach at my school to incorporate computer sci
 
 We did a modified version of the Grade 5 Math - Number Fluency and Fractions module. In this module, students use two-step input/output machines as a technique to multiply whole numbers by fractions. For example, $$8\times\frac3 4 $$ can also be expressed as $$8\times3\div 4 $$. We can envision the multiplication and division as two input/output machines. The first machine takes multiplies its input by 3 and the second machine divides its input by 4. The lessons take students through a series of these machines, demonstrating different kinds of algorithms. 
 
-![Two input/output machines stacked on top of each other. The first is a multiply by three machine and the second is divide by four. The output from the first machine falls into the input slot for the second machine. The number 8 is the slot for the input in the first machine.](worksheet.png){: class="center-image"}
+![Two input/output machines stacked on top of each other. The first is a multiply by three machine and the second is divide by four. The output from the first machine falls into the input slot for the second machine. The number 8 is the slot for the input in the first machine.](/assets/images/posts/2019-04-27-2-step-io-machine-video/worksheet.png){: class="center-image"}
 
 The lesson plans call for these machines to teach students about algorithms, which help develop computational thinking. They can also set students up to think in terms of functions. In computer science, functions are used to run the same step or steps multiple times without having to define them each time. The function is *defined* once and *called* (or run) as many times as necessary. In my experience working with first-time coders in middle and high school, functions can be one of the first major sources of confusion. I’ve been looking for a way to help students visualize functions, and input/output machines are the perfect way to do so.

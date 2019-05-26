@@ -3,12 +3,12 @@ title: 'Scratch Blocks for Lesson Materials'
 date: '2019-04-14 00:03:00'
 last_modified_at: '2019-04-25 00:03:00'
 excerpt: Easily generate images of Scratch blocks to use in worksheets, presentations, and other materials.
-image: _posts/2019-04-14-scratch-blocks-generator/teaser.png
+image: assets/images/posts/2019-04-14-scratch-blocks-generator/teaser.png
 header:
   color: '#E55B5B'
-  image: _posts/2019-04-14-scratch-blocks-generator/teaser.png
+  image: assets/images/posts/2019-04-14-scratch-blocks-generator/teaser.png
   image_description: Illustration of a document with Scratch-style code blocks.
-  teaser: _posts/2019-04-14-scratch-blocks-generator/teaser.png
+  teaser: assets/images/posts/2019-04-14-scratch-blocks-generator/teaser.png
   actions:
     - url: https://scratchblocks.github.io
       label: Scratch Blocks
@@ -28,7 +28,7 @@ tags:
 
 ## Scratch Blocks Generator
 This [Scratch Blocks Generator](https://scratchblocks.github.io/#?style=scratch3&script=) by [Tim Radvan](https://github.com/tjvr)  is great for creating mockups of blocks. On the webpage, type the Scratch blocks in the box, one block per line, in the editor box.  As you type, you’ll see your text transformed into Scratch blocks.
-![Animation showing Scratch code being typed and transformed into blocks](scratch-blocks-typing.gif){: style="max-height: 500px"}
+![Animation showing Scratch code being typed and transformed into blocks](/assets/images/posts/2019-04-14-scratch-blocks-generator/scratch-blocks-typing.gif){: style="max-height: 500px"}
 
 ### Saving Images
 You can download your blocks in PNG and SVG formats using the Export buttons. The PNG format is good for plugging and playing. You can insert this type of image into just about any program/app. SVG is a vector format that needs to be opened with more specialized programs and exported into a more common format before it can be inserted into other apps/programs. SVG files offer more editing capabilities, such as making the shapes larger or changing their text.

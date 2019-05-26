@@ -2,10 +2,10 @@
 title: 'Resource: Website Vocabulary Handout'
 date: '2019-03-04 00:03:00'
 excerpt: "Share this handout with students to introduce parts of a web age and other vocabulary."
-image: _posts/2019-03-04-website-vocabulary-handout/teaser.png
+image: assets/images/posts/2019-03-04-website-vocabulary-handout/teaser.png
 header:
-    teaser: _posts/2019-03-04-website-vocabulary-handout/teaser.png
-    image: _posts/2019-03-04-website-vocabulary-handout/teaser.png
+    teaser: assets/images/posts/2019-03-04-website-vocabulary-handout/teaser.png
+    image: assets/images/posts/2019-03-04-website-vocabulary-handout/teaser.png
     color: "#87C426"
     image_description: "Illustration of a web page"
     actions:

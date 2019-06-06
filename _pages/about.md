@@ -11,6 +11,8 @@ badges:
       alt: "Google Certified Educator Level 2 Badge"
     - url: "/assets/images/badges/AppleTeacherSwift.png"
       alt: "Apple Teacher Swift Playgrounds badge"
+    - url: "/assets/images/badges/MassCueLevel01.png"
+      alt: "MassCUE Digital Educator Level 1 Explorer"
 
 
 ---

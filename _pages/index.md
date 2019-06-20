@@ -7,7 +7,6 @@ permalink: /
 
 entries_layout: grid
 
-title: Zak Kolar
    
 layout: home
 
@@ -15,6 +14,7 @@ header:
     color: "#34495e"
 
 ---
+
 
 
 ## Welcome!

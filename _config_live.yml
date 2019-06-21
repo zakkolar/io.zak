@@ -1,3 +1,8 @@
 url: "https://zak.io"
 algolia:
   index_name: prod_zak.io
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "zak-io"

@@ -13,6 +13,8 @@ badges:
       alt: "Apple Teacher Swift Playgrounds badge"
     - url: "/assets/images/badges/MassCueLevel01.png"
       alt: "MassCUE Digital Educator Level 1 Explorer"
+    - url: "/assets/images/badges/NearpodCertifiedEducator.png"
+      alt: "Nearpod Certified Educator"
 
 
 ---

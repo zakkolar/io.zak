@@ -164,11 +164,3 @@ Here's an interactive tutorial for the visual learners
     style="width: 100%; height: 500px"
     frameborder="0" webkitallowfullscreen="webkitallowfullscreen"
     mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen"></iframe></p>
-
-
-
-
-    
-## How are you using links?
-
-Do you have other uses for links to files in Google Drive folders? Let me know in the comments below!

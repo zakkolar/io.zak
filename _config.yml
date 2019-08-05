@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Zak.io Tech Tips
+title: Zak.io
 name: Zak Kolar
 
 description: "Zak Kolar is a Digital Learning Teacher in Waltham, MA. He works with students and teachers to incorporate digital literacy."

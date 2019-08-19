@@ -250,3 +250,12 @@ img.badge {
 
   }
 }
+
+aside.sidenote{
+  @extend p;
+  color: $gray;
+  font-style: italic;
+  background-color: $lighter-gray;
+  padding:5px;
+  border: solid 2px $light-gray;
+}

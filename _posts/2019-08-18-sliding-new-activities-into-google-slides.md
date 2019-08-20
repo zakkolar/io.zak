@@ -19,9 +19,41 @@ tags:
 
 Google Slides can be used for so much more than presentations. It's perfect for creating digital activities such as graphic organizers, chat rooms, digital manipulatives, and more. In this tutorial, I'll show you ways to enhance Google Slides activities to minimize the amount of time students spend fixing technical mistakes and maximize the amount of time they spend learning.
 
+## Example activities
+
+Before we get started, these are some Slides activities I've done with elementary students in various grades that utilize some of the techniques I'll describe below. There are more examples in this [folder](https://drive.google.com/drive/folders/1UliOH1P0CyuoGB14MKce1faeNvh6dYb9). To get the full experience, make a copy of each and try the activity.
+
+
+### Discussion template
+
+![Screenshot of a slide with a red border titled Answer 1. Has a placeholder for the student's name and response to the question.](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/discussion.png){: style="width:400px; margin:0;"}
+
+
+This [discussion template](https://docs.google.com/presentation/d/1rG9oTUwHRePRjcytjsAjXSLebPA8XgzC97ccZBHLq9s/copy) (inspired by [Alice Keeler](https://alicekeeler.com/2015/11/02/google-slides-discussion-template/)) allows students to participate in a class-wide discussion. The teacher displays a question and each student creates a slide to type their answer. Each question has a unique master layout for its answer. This allows students to quickly respond to each question by selecting the associated "answer" master.
+
+In addition, each "answer" master has a unique font/color scheme. This makes it easy to differentiate between the questions when the whole class is collaborating in the same presentation.
+
+Also see the template for [questions](https://docs.google.com/presentation/d/1UGRADoE7QKUQLyIgUFLvNc8NQxaJZhjyLhSKn2HV7NA/copy) and the [teacher guide](https://docs.google.com/presentation/d/1rmpm1PD2vfN_xOVJIz1uwZQFcGbpQCInKNC8dRiye0c/copy).
+
+### Word sort
+
+![Screenshot of a word sort activity. Three boxes are labeled "-at", "-an", and "different word". A list of words sits to the side to be dragged into the appropriate box.](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/word-sort.png){: style="width:400px; margin:0"}
+
+This [word sort](https://docs.google.com/presentation/d/1nJV00lNoCtuxKJOwiTfNR_VDAeEzbTKpOfijzH7C4u0/copy) uses a master slide to lock down all the contents of the slide except for the words. The words are word art (instead of a text box) so that it's easier to drag them without accidentally selecting or modifying the text inside.
+
+### Country facts graphic organizer
+
+![Screenshot of a graphic organizer with spaces for the name of a country, its GDP, mean years of schooling, and life expectancy from birth](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/graphic-organizer.png){: style="width:400px; margin:0"}
+
+This [graphic organizer](https://docs.google.com/presentation/d/1yy3ysNTwI31tnCtteF0tqwHkWMApX5sLpQIk7r0Vdig/edit#slide=id.p1) is designed for students to collect data about a country or set of countries. Each time a new slide is created, it automatically contains a blank graphic organizer. If a text box gets deleted, it's easy to bring back. Click the "Layout" dropdown at the top of the slide and then click the "Graphic Organizer" layout. Existing text boxes will not change, but missing text boxes will be restored.
+
+![Screenshot of the layout menu with the Graphic Organizer layout highlighted](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/restore-graphic-organizer.png){: style="width:180px"}
+
+Google's master slides make it easy to set up these types of interactive activities. Just as you can set backgrounds and colors for presentations, you can add interactive elements to a master slide.
+
 ## Techniques for activities in Slides
 
-To see these techniques in action, check out the [examples](#example-activities) further down this post.
+Now that you've seen what's possible, let's take a look at how it's done.
 
 ### Master slides
 
@@ -187,7 +219,7 @@ Here's an interactive tutorial for the visual learners
 
 ##### Locking objects down
 
-Any text (other than placeholders - see below), images, or other elements you add to a master layout will be locked to the page. This means that students can't move or edit these particular objects. This is useful for backgrounds, instructions, targets for dragging, and other elements you don't want students to move, edit, or delete. Don't include items you'd like students to be able to manipulate in the master.
+Any text (other than placeholders - see below), images, or other elements you add to a master layout will be locked to the page. This means that students can't move or edit these particular objects. This is useful for backgrounds, instructions, targets for dragging, and other elements you don't want students to interact with. Don't include items you'd like students to be able to manipulate in the master.
 
 You can add these locked items to your master layout the same way you would add items to a normal slide with the toolbars and menus at the top of the screen:
 
@@ -200,14 +232,12 @@ If you'd like to add locked down text, click the text icon and choose "Text box"
 
 ##### Adding placeholders
 
-Placeholders are text boxes that the user can type into when they're using the layout for a slide. To add a placeholder, click the text icon and choose "Body text placeholder":
+Placeholders are text boxes your students can fill in when they're using the layout for a slide. To add a placeholder, click the text icon and choose "Body text placeholder":
 
 ![Screenshot of text menu opened with "Body text placeholder" option highlighted](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/body-text-placeholder.png){: style="width:200px"}
 
 
-
-
-Click and drag on the slide where you'd like placeholder to appear. You'll see a bulleted list that says "First level", "Second level", "Third level", etc. These bullets look cluttered on the master, but will not display on the real slides for users. Although the bullets likely extend beyond the boundary of the box that contains them, users will only see the boundary box.
+Click and drag on the slide where you'd like placeholder to appear. You'll see a bulleted list that says "First level", "Second level", "Third level", etc. These bullets look cluttered on the master, but will not display on the real slides for students. Although the bullets likely extend beyond the boundary of the box that contains them, students will only see the boundary box.
 
 ![Screenshot of the master and normal views for a layout. The master view shows bullet points in a text placeholder exceeding the area of the boundary whereas the normal view only shows "Click to add text" in the box](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/master-vs-normal.png){: style="width:700px" } 
 
@@ -217,7 +247,7 @@ The body text placeholder will say "Click to add text" when the user chooses thi
 
 You can format the placeholder box just as you would format any other text (e.g. color, font, size, etc.). Because this is just a placeholder, you can't change the words "Level 1", "Level 2", etc. Those are there to help you as you change the formatting. However, they won't appear when the student views the slide. Instead, the box will display "Click to add text".
 
-If you want to have specific text on the master, use the text tool (described above) rather than the placeholder tool.
+If you want to type specific text on the master, use the text tool (described above) rather than the placeholder tool.
 
 ![Screenshot of a placeholder with the first level text styled with a custom font. Text next to screenshot reads "Use the text formatting tools on 'first level'"](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/formatting-placeholder.png){: style="width:600px" }
 
@@ -278,28 +308,6 @@ To resize the word art, drag the handles in the corner. Hold shift to maintain t
 To edit the text in word art, double click on it. If want to use word art multiple times and format it the same way, you can duplicate your original by pressing control + D (command + D on a Mac). Duplicate it as many times as you need and change the text so you don't need to reformat each one.
 
 
-## Example activities
+## Conclusion
 
-Here are some Slides activities I've done with elementary students in various grades that utilize master slides and sortable objects.There are more examples in this [folder](https://drive.google.com/drive/folders/1UliOH1P0CyuoGB14MKce1faeNvh6dYb9). To get the full experience, make a copy of each and try the activity.
-
-
-### Discussion template
-
-![Screenshot of a slide with a red border titled Answer 1. Has a placeholder for the student's name and response to the question.](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/discussion.png){: style="width:400px; margin:0;"}
-
-
-This [discussion template](https://docs.google.com/presentation/d/1rG9oTUwHRePRjcytjsAjXSLebPA8XgzC97ccZBHLq9s/copy) (inspired by [Alice Keeler](https://alicekeeler.com/2015/11/02/google-slides-discussion-template/)) allows students to participate in a class-wide discussion. The teacher displays a question and each student creates a slide to type their answer. Each answer has a master layout so that students can quickly respond to a new question by creating a new slide that matches the question. Because the responses have a uniform layout/color scheme, it's easy to differentiate between the questions when a whole class is collaborating within the same presentation. Also see the template for [questions](https://docs.google.com/presentation/d/1UGRADoE7QKUQLyIgUFLvNc8NQxaJZhjyLhSKn2HV7NA/copy) and the [teacher guide](https://docs.google.com/presentation/d/1rmpm1PD2vfN_xOVJIz1uwZQFcGbpQCInKNC8dRiye0c/copy).
-
-### Word sort
-
-![Screenshot of a word sort activity. Three boxes are labeled "-at", "-an", and "different word". A list of words sits to the side to be dragged into the appropriate box.](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/word-sort.png){: style="width:400px; margin:0"}
-
-This [word sort](https://docs.google.com/presentation/d/1nJV00lNoCtuxKJOwiTfNR_VDAeEzbTKpOfijzH7C4u0/copy) uses a master slide to lock down all the contents of the slide except for the words. The words are word art (instead of a text box) so that it's easier to drag them without accidentally selecting or modifying the text inside.
-
-### Country facts graphic organizer
-
-![Screenshot of a graphic organizer with spaces for the name of a country, its GDP, mean years of schooling, and life expectancy from birth](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/graphic-organizer.png){: style="width:400px; margin:0"}
-
-This [graphic organizer](https://docs.google.com/presentation/d/1yy3ysNTwI31tnCtteF0tqwHkWMApX5sLpQIk7r0Vdig/edit#slide=id.p1) is designed for students to collect data about a country or set of countries. Because the presentation only has one master slide, all new slides automatically have a blank organizer. If a text box gets deleted, it's easy to bring back. Click the "Layout" dropdown at the top of the slide and then click the "Graphic Organizer" layout. Existing text boxes will not change, but missing text boxes will be restored.
-
-![Screenshot of the layout menu with the Graphic Organizer layout highlighted](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/restore-graphic-organizer.png){: style="width:180px"}
+Now that you've mastered Google Slides, the possibilities are endless. Feel free to use the examples above as starting points or create your own activities from scratch! If you put any of these techniques into practice, I'd love to hear about it on [Twitter](https://twitter.com/ZakKolar)!

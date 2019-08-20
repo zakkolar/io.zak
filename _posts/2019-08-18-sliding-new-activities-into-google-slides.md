@@ -31,7 +31,7 @@ Before we get started, these are some Slides activities I've done with elementar
 
 This [discussion template](https://docs.google.com/presentation/d/1rG9oTUwHRePRjcytjsAjXSLebPA8XgzC97ccZBHLq9s/copy) (inspired by [Alice Keeler](https://alicekeeler.com/2015/11/02/google-slides-discussion-template/)) allows students to participate in a class-wide discussion. The teacher displays a question and each student creates a slide to type their answer. Each question has a unique master layout for its answer. This allows students to quickly respond to each question by selecting the associated "answer" master.
 
-In addition, each "answer" master has a unique font/color scheme. This makes it easy to differentiate between the questions when the whole class is collaborating in the same presentation.
+In addition, each "answer" master has a unique color scheme. This makes it easy to differentiate between the questions when the whole class is collaborating in the same presentation.
 
 Also see the template for [questions](https://docs.google.com/presentation/d/1UGRADoE7QKUQLyIgUFLvNc8NQxaJZhjyLhSKn2HV7NA/copy) and the [teacher guide](https://docs.google.com/presentation/d/1rmpm1PD2vfN_xOVJIz1uwZQFcGbpQCInKNC8dRiye0c/copy).
 

@@ -215,7 +215,9 @@ Click and drag on the slide where you'd like placeholder to appear. You'll see a
 The body text placeholder will say "Click to add text" when the user chooses this layout and has not yet typed their own text. Meanwhile, the title and subtitle placeholders say "Click to add title/subtitle". Because of this, I prefer to use the body placeholder for everything. 
 </aside>
 
-You can't change the text in the placeholder, but you can change the font, color, size, and other formatting. Highlight "first level" and apply any changes you'd like. If you aren't planning on your users typing bullets into the placeholder, you can ignore the other levels. 
+You can format the placeholder box just as you would format any other text (e.g. color, font, size, etc.). Because this is just a placeholder, you can't change the words "Level 1", "Level 2", etc. Those are there to help you as you change the formatting. However, they won't appear when the student views the slide. Instead, the box will display "Click to add text".
+
+If you want to have specific text on the master, use the text tool (described above) rather than the placeholder tool.
 
 ![Screenshot of a placeholder with the first level text styled with a custom font. Text next to screenshot reads "Use the text formatting tools on 'first level'"](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/formatting-placeholder.png){: style="width:600px" }
 
@@ -249,7 +251,7 @@ For activities that require matching or sorting, the objects you want students t
 
 #### Word art for sorting words
 
-Clicking and dragging in the middle of a normal text box highlights the text instead of moving it:
+If you are doing a word sorting exercise, consider using word art instead of regular text. Clicking and dragging in the middle of a normal text box highlights the text instead of moving it:
 
 ![Animation showing a cursor highlighting a word in a text box instead of moving it](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/drag-issue.gif){: style="width: 460px" }
 
@@ -286,7 +288,7 @@ Here are some Slides activities I've done with elementary students in various gr
 ![Screenshot of a slide with a red border titled Answer 1. Has a placeholder for the student's name and response to the question.](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/discussion.png){: style="width:400px; margin:0;"}
 
 
-This [discussion template](https://docs.google.com/presentation/d/1rG9oTUwHRePRjcytjsAjXSLebPA8XgzC97ccZBHLq9s/copy) (inspired by [Alice Keeler](https://alicekeeler.com/2015/11/02/google-slides-discussion-template/)) allows students to respond to questions in the style of a Twitter chat. Each answer has a pre-defined master template so that students can quickly respond to a new question by creating a new slide with the layout for the current question. Because the responses have a uniform layout/color scheme, it's easy to differentiate between the questions when a whole class is collaborating within the same presentation. Also see the template for [questions](https://docs.google.com/presentation/d/1UGRADoE7QKUQLyIgUFLvNc8NQxaJZhjyLhSKn2HV7NA/copy) and the [teacher guide](https://docs.google.com/presentation/d/1rmpm1PD2vfN_xOVJIz1uwZQFcGbpQCInKNC8dRiye0c/copy).
+This [discussion template](https://docs.google.com/presentation/d/1rG9oTUwHRePRjcytjsAjXSLebPA8XgzC97ccZBHLq9s/copy) (inspired by [Alice Keeler](https://alicekeeler.com/2015/11/02/google-slides-discussion-template/)) allows students to participate in a class-wide discussion. The teacher displays a question and each student creates a slide to type their answer. Each answer has a master layout so that students can quickly respond to a new question by creating a new slide that matches the question. Because the responses have a uniform layout/color scheme, it's easy to differentiate between the questions when a whole class is collaborating within the same presentation. Also see the template for [questions](https://docs.google.com/presentation/d/1UGRADoE7QKUQLyIgUFLvNc8NQxaJZhjyLhSKn2HV7NA/copy) and the [teacher guide](https://docs.google.com/presentation/d/1rmpm1PD2vfN_xOVJIz1uwZQFcGbpQCInKNC8dRiye0c/copy).
 
 ### Word sort
 

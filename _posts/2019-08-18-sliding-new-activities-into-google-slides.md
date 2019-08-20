@@ -17,7 +17,7 @@ tags:
   - "Google Slides"
 ---
 
-Everyone knows Google Slides can be used to make presentations. But for in-class activities, it can do so much more. Google Slides is perfect for creating digital activities such as graphic organizers, chat rooms, digital manipulatives, and more. In this tutorial, I'll show you ways to enhance Google Slides activities to minimize the amount of time students spend fixing technical mistakes and maximize the amount of time they spend learning.
+Google Slides can be used for so much more than presentations. It's perfect for creating digital activities such as graphic organizers, chat rooms, digital manipulatives, and more. In this tutorial, I'll show you ways to enhance Google Slides activities to minimize the amount of time students spend fixing technical mistakes and maximize the amount of time they spend learning.
 
 ## Techniques for activities in Slides
 

@@ -3,12 +3,12 @@ layout: single
 title: Google Drive Scavenger Hunt Lesson Plan
 date: 2019-09-28 06:00 +0000
 excerpt: Introduce students to Google Drive and its various tools to organize and collaborate in a fun way with this scavenger hunt.
-image: /assets/images/posts/2019-09-28-google-drive-scavenger-hunt/teaser2.png
+image: /assets/images/posts/2019-09-28-google-drive-scavenger-hunt/teaser.png
 header:
   color: '#9A4EA8'
-  image: /assets/images/posts/2019-09-28-google-drive-scavenger-hunt/teaser2.png
+  image: /assets/images/posts/2019-09-28-google-drive-scavenger-hunt/teaser.png
   image_description: Illustration of a folder with a Google Doc and Google Slides file inside. A magnifying glass examines the folder.
-  teaser: /assets/images/posts/2019-09-28-google-drive-scavenger-hunt/teaser2.png
+  teaser: /assets/images/posts/2019-09-28-google-drive-scavenger-hunt/teaser.png
   actions:
   - url: https://docs.google.com/document/d/1q_7WJLGECztYbspfS0c_g6X5-y8WgEkmT5Ei9j0FoXc/edit
     label: Lesson Plan

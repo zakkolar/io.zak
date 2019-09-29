@@ -24,8 +24,7 @@ When I was sitting down with 4th grade teachers to make a plan for the year, we 
 
 ## Activity
 
-In the activity, students worked in groups of three to complete a set of tasks broken down into [step-by-step instructions](https://docs.google.com/presentation/d/1571xHEubARtNIezxZyqzWTXHfM2u_5xgeqX-vkOm7Bw/edit#slide=id.p). After each task, they worked together to answer a set of [questions](https://docs.google.com/document/d/1eLsJNWBfgpqZunvRrF7VppNFIjYAzW6WhX6ecsQoCis/edit) about the task. At the end of the class period, each member of the group that completed the most tasks and answered the most questions won a [3D printed fidget toy](www.thingiverse.com/thing:1348253
-)!
+In the activity, students worked in groups of three to complete a set of tasks broken down into [step-by-step instructions](https://docs.google.com/presentation/d/1571xHEubARtNIezxZyqzWTXHfM2u_5xgeqX-vkOm7Bw/edit#slide=id.p). After each task, they worked together to answer a set of [questions](https://docs.google.com/document/d/1eLsJNWBfgpqZunvRrF7VppNFIjYAzW6WhX6ecsQoCis/edit) about the task. At the end of the class period, each member of the group that completed the most tasks and answered the most questions won a [3D printed fidget toy](https://www.thingiverse.com/thing:1348253)!
 
 Check out the full [lesson plan](https://docs.google.com/document/d/1q_7WJLGECztYbspfS0c_g6X5-y8WgEkmT5Ei9j0FoXc/edit#) and [materials](https://drive.google.com/drive/folders/1t9VrnJTYW4mUJeVAohfZcoAUq5psvgfx). By far the hardest part of the activity was getting students into groups and communicating the instructions, but the lesson plan has one suggested method for getting students into an efficient work flow.
 

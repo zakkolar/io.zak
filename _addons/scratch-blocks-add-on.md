@@ -8,11 +8,8 @@ published: true
 header:
     actions:
       -
-        label: Google Docs Add-on
-        url: https://chrome.google.com/webstore/detail/scratch-blocks-docs/galbhghliiocjcgcopijohnkielhfkip
-      -
-        label: Google Slides Add-on
-        url: https://chrome.google.com/webstore/detail/scratch-blocks-slides/filmpgafcjandjdbidgdfficihfpdjoh
+        label: Google Docs adn Slides Add-on
+        url: https://gsuite.google.com/marketplace/app/scratch_blocks/669816099092
       -
         label: View on GitHub
         url: https://github.com/zakkolar/scratch-blocks-gsuite

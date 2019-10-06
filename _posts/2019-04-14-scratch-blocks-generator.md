@@ -12,10 +12,8 @@ header:
   actions:
     - url: https://scratchblocks.github.io
       label: Scratch Blocks
-    - url: https://chrome.google.com/webstore/detail/scratch-blocks-docs/galbhghliiocjcgcopijohnkielhfkip
-      label: Docs Add-on
-    - url: https://chrome.google.com/webstore/detail/scratch-blocks-slides/filmpgafcjandjdbidgdfficihfpdjoh
-      label: Slides Add-on
+    - url: https://gsuite.google.com/marketplace/app/scratch_blocks/669816099092
+      label: Docs and Slides Add-on
 categories:
   - Add-ons
 tags:
@@ -64,7 +62,7 @@ wait (3) seconds
 {% endscratchblocks %}
 
 ## G Suite add-ons
-If you’re planning to make Scratch materials in Google Docs or Slides, I used Tim Radvan's generator to create two add-ons that you can use to generate blocks directly in those apps. The [Docs](https://chrome.google.com/webstore/detail/scratch-blocks-docs/galbhghliiocjcgcopijohnkielhfkip) and [Slides](https://chrome.google.com/webstore/detail/scratch-blocks-slides/filmpgafcjandjdbidgdfficihfpdjoh) add-ons are available in the Chrome web store.
+If you’re planning to make Scratch materials in Google Docs or Slides, I used Tim Radvan's generator to create two add-ons that you can use to generate blocks directly in those apps. The  Docs and Slides [add-ons](https://gsuite.google.com/marketplace/app/scratch_blocks/669816099092) are available in the Chrome web store.
 
 ### Using the add-on
 

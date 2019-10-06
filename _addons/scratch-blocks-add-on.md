@@ -8,7 +8,7 @@ published: true
 header:
     actions:
       -
-        label: Google Docs adn Slides Add-on
+        label: Google Docs and Slides Add-on
         url: https://gsuite.google.com/marketplace/app/scratch_blocks/669816099092
       -
         label: View on GitHub

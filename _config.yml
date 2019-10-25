@@ -129,7 +129,7 @@ defaults:
     comments:  false
     related: false
     show_subscribe: true
-    email_widget_caption: "Want to hear more? Subscribe to get emailed about new posts!"
+    email_widget_caption: "Want to hear more? Subscribe to get emails about new posts!"
     author_profile: false
     header:
       color: "#34495e"

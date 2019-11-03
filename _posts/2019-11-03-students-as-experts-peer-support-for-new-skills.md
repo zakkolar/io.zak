@@ -3,12 +3,12 @@ layout: single
 title: 'Student Expert Cards for Peer Collaboration'
 date: 2019-11-03 08:53 -0500
 excerpt: Use these carts to encourage peer collaboration and support when rolling out new projects and tools.
-image: /assets/images/posts/2019-11-03-students-as-experts-peer-support-for-new-skills/teaser1.png
+image: /assets/images/posts/2019-11-03-students-as-experts-peer-support-for-new-skills/teaser.png
 header:
   color: '#F67380'
-  image: /assets/images/posts/2019-11-03-students-as-experts-peer-support-for-new-skills/teaser1.png
+  image: /assets/images/posts/2019-11-03-students-as-experts-peer-support-for-new-skills/teaser.png
   image_description: "Illustration of a desk with a chair and open laptop. A green card labeled 'Expert' is placed on the desk. In the background is a whiteboard with four cards attached in different colors"
-  teaser: /assets/images/posts/2019-11-03-students-as-experts-peer-support-for-new-skills/teaser1.png
+  teaser: /assets/images/posts/2019-11-03-students-as-experts-peer-support-for-new-skills/teaser.png
 categories: Resources
 tags:
     - Scratch

@@ -2,7 +2,7 @@
 layout: single
 title: 'Student Expert Cards for Peer Collaboration'
 date: 2019-11-03 08:53 -0500
-excerpt: Use these carts to encourage peer collaboration and support when rolling out new projects and tools.
+excerpt: Use these cards to encourage peer collaboration and support when rolling out new projects and tools.
 image: /assets/images/posts/2019-11-03-students-as-experts-peer-support-for-new-skills/teaser.png
 header:
   color: '#F67380'

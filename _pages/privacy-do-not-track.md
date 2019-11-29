@@ -8,5 +8,3 @@ layout: single
         style="border: 0; height: 200px; width: 100%;"
         src="https://matomo.zak.io/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=&fontColor=494e52&fontSize=&fontFamily=Lato"
         ></iframe>
-
-To opt out of Google Analytics tracking, follow the instructions [here](https://tools.google.com/dlpage/gaoptout?hl=en).

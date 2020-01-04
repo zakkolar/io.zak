@@ -25,6 +25,6 @@ header:
 - [Lesson plan](https://docs.google.com/document/d/1gGxvSxGCMyCmNtGLbfoczH93X2BPpLrCwxigmKe8ep8/edit#){: target="_blank"}
 - [Project materials](https://drive.google.com/drive/folders/1NsVkC_4qLwyyLE89fOHrmIfm8MwNqGUL){: target="_blank"}
 - [Scratch blocks G Suite Add-on](https://gsuite.google.com/marketplace/app/scratch_blocks/669816099092){: target="_blank"}
-- [Setting up Scratch educator accounts](http://localhost:4000/post/2019/08/05/setting-up-scratch-classes/){: target="_blank"}
+- [Setting up Scratch educator accounts](https://zak.io/post/2019/08/05/setting-up-scratch-classes/){: target="_blank"}
 - [Expert Cards]({% link _posts/2019-11-03-students-as-experts-peer-support-for-new-skills.md %}){: target="_blank"}
 - [Exit Ticket](https://docs.google.com/forms/d/e/1FAIpQLSeqrj1jwIcnQOPmLwLaTZS4gpI1vlBgs4fx6nZZDxui3lRy6g/viewform){: target="_blank"}

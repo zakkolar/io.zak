@@ -28,6 +28,4 @@ As part of a project where students create websites, I made a handout that label
 
 The handout is available as a [PDF](https://drive.google.com/open?id=1GC0SOsbGPMJEJvAjl8gbRhRiC4acDGIK) as well as a [Google Drawing](https://drive.google.com/open?id=1AX4xj_imQwSp-6nFkOewDJzVfc8RGWFtEpsGuUCocEA). If you'd like to modify the Google Drawing, you should make a copy first.
 
-Feel free to use and modify this as you see fit - all I ask is that you like back to me and use a compatible license if you decide to share your modifications.
-
 {% include licenses/cc-by-sa.html %}

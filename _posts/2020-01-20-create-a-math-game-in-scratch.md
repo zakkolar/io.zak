@@ -79,3 +79,5 @@ For this project, we spent about 15 minutes at the end of the programming lesson
         < < <(answer) = [1000] > or <(answer) = [1,000] > > or < (answer) = [1,000.0] > >
 
     </pre>
+    
+{% include licenses/cc-by-sa.html %}

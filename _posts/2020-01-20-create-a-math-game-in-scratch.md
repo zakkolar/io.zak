@@ -73,7 +73,7 @@ For this project, we spent about 15 minutes at the end of the programming lesson
     end
     </pre>
     
-    You place <code class='b'>< <> or <> ></code> blocks inside of each other for more than two options:
+    You can place <code class='b'>< <> or <> ></code> blocks inside of each other for more than two options:
     
     <pre class='blocks'>
         < < <(answer) = [1000] > or <(answer) = [1,000] > > or < (answer) = [1,000.0] > >

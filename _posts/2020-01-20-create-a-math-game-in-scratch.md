@@ -63,21 +63,21 @@ For this project, we spent about 15 minutes at the end of the programming lesson
 
 * Some questions may need to accept multiple right answers (e.g. 1000 and 1,000). To allow more than one correct answer, you can use the <code class='b'>< > or < ></code> block to check for multiple conditions. The "then" part of the condition will run as long as AT LEAST one of the conditions in the "or" block is true.
     
-    <pre class='blocks'>
-    ask [What is 500 x 2?] and wait
-    if < <(answer) = [1000] > or <(answer) = [1,000] > > then
-        change [score v] by (1)
-        say [Correct!] for (2) seconds
-    else
-        say [Incorrect!] for (2) seconds
-    end
-    </pre>
+    {% scratchblocks %}
+ask [What is 500 x 2?] and wait
+if < <(answer) = [1000] > or <(answer) = [1,000] > > then
+    change [score v] by (1)
+    say [Correct!] for (2) seconds
+else
+    say [Incorrect!] for (2) seconds
+end
+    {% endscratchblocks %}
     
-    You can place <code class='b'>< <> or <> ></code> blocks inside of each other for more than two options:
+You can place <code class='b'>< <> or <> ></code> blocks inside of each other for more than two options:
     
-    <pre class='blocks'>
-        < < <(answer) = [1000] > or <(answer) = [1,000] > > or < (answer) = [1,000.0] > >
+{% scratchblocks %}
+    < < <(answer) = [1000] > or <(answer) = [1,000] > > or < (answer) = [1,000.0] > >
 
-    </pre>
+{% endscratchblocks %}
     
 {% include licenses/cc-by-sa.html %}

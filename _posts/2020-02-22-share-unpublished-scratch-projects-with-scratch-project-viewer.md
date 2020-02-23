@@ -29,19 +29,19 @@ To address these limitations, I created a [website](https://scratch-viewer.zak.i
 
 To share and customize a single project at a time, you can use [this page](https://scratch-viewer.zak.io/){: target="_blank"}. Paste the URL of the Scratch project into the box (even if the project is not shared).
 
-![/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/paste-scratch-url.png](/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/paste-scratch-url.png){: class='medium-image'}
+![Screenshot of a text box labeled "Paste Scratch project URL"](/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/paste-scratch-url.png){: class='medium-image'}
 
 Fill out the settings as you would like. Keep in mind that any information you put here will be visible to anyone you share the link with, so you should not include any personal information.
 
-![/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/2020-02-21_14-35-14.png](/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/customize-settings.png){: class='medium-image'}
+![Screenshot of the controls that can be used to customize the appearance of the Scratch project. Fields include title, caption, width, height, show controls, start automatically, show download button, background color, and text color](/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/customize-settings.png){: class='medium-image'}
 
 If you'd like to see what your webpage will look like, click "preview".
 
-![/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/preview.png](/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/preview.png){: class='medium-image'}
+![Screenshot of the settings for the Scratch project display. A tab labeled "preview" is highlighted.](/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/preview.png){: class='medium-image'}
 
 Once you are ready to share the project, scroll down and copy the generated URL. Anyone you share this generated URL with will be able to see the Scratch project and whatever title/caption you specified.
 
-![/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/2020-02-22_14-07-18.png](/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/copy.png){: class='medium-image'}
+![Screenshot of a box labeled "share this link" with a URL inside. Below is a button that says "copy"](/assets/images/posts/2020-02-22-share-unpublished-scratch-projects-with-scratch-project-viewer/copy.png){: class='medium-image'}
 
 ### Customize via API (advanced)
 

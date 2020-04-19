@@ -30,9 +30,9 @@ The exit tickets are listed below. You'll need to create your own copy of an exi
 
 <div style="text-align:center;">
 
-<a href="https://docs.google.com/presentation/d/1N-Y_EPvmuLfaI9MqHOIYplk0dzaTorqQVchQJ-My-R8/template/preview" target="_blank"><img alt="3-2-1 exit ticket with boxes for 3 things I learned today, 2 questions I still have, and one goal for tomorrow" src='/assets/images/posts/2020-04-18-google-slides-digital-exit-tickets/ticket-3-2-1.png' style="max-width:300px; display:inline-block"></a>
+<a href="https://docs.google.com/presentation/d/1N-Y_EPvmuLfaI9MqHOIYplk0dzaTorqQVchQJ-My-R8/template/preview" target="_blank"><img alt="3-2-1 exit ticket with boxes for 3 things I learned today, 2 questions I still have, and one goal for tomorrow" src='/assets/images/posts/2020-04-18-google-slides-digital-exit-tickets/ticket-3-2-1.png' style="max-width:300px; display:inline-block;  margin-top:6px;"></a>
 
-<a href="https://docs.google.com/presentation/d/1agYI5HkwTvgeHrGZ0DLfRI-gJooEkvPXyIYI42fx4Yc/template/preview" target="_blank"><img alt="Exit ticket titled '5 things I know about ______' with 5 boxes labeled 1-5" src='/assets/images/posts/2020-04-18-google-slides-digital-exit-tickets/ticket-5-things-I-know.png' style="max-width:300px; display: inline-block"></a>
+<a href="https://docs.google.com/presentation/d/1agYI5HkwTvgeHrGZ0DLfRI-gJooEkvPXyIYI42fx4Yc/template/preview" target="_blank"><img alt="Exit ticket titled '5 things I know about ______' with 5 boxes labeled 1-5" src='/assets/images/posts/2020-04-18-google-slides-digital-exit-tickets/ticket-5-things-I-know.png' style="max-width:300px; display: inline-block;  margin-top:6px;"></a>
 
 
 <a href="https://docs.google.com/presentation/d/1usc15JWab4auw8K_UwfW0LXzUgbieajLLS0Goa8bbTY/template/preview" target="_blank"><img alt="Exit ticket with boxes for 'Things I know', 'Ways I grew', 'Things I will do', and 'Questions I still have'" src='/assets/images/posts/2020-04-18-google-slides-digital-exit-tickets/ticket-categories.png' style="max-width:300px; display: inline-block; margin-top:6px;"></a>

@@ -15,6 +15,7 @@ header:
 categories: Tutorials
 tags:
   - "Google Slides"
+  - "Interactive Slides Templates"
 ---
 
 Google Slides can be used for so much more than presentations. It's perfect for creating digital activities such as graphic organizers, chat rooms, digital manipulatives, and more. In this tutorial, I'll show you ways to enhance Google Slides activities to minimize the amount of time students spend fixing technical mistakes and maximize the amount of time they spend learning.

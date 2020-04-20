@@ -1,0 +1,13 @@
+{% if include.app.privacy.overview %}
+<p>{{ include.app.privacy.overview }}</p>
+{% endif %}
+
+{% if include.app.privacy.scopes %}
+    <p>This add-on requests permission to do the following:</p>
+    <dl style="background-color: #f4f4f4; padding: 10px; border: 1px  solid #aaa">
+    {% for scope in include.app.privacy.scopes %}
+    <dt style="margin:0">{{ scope.name }}</dt>
+        <dd>{{scope.reason}}</dd>
+    {% endfor %}
+    </dl>
+{% endif %}

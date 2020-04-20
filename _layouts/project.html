@@ -77,11 +77,26 @@ layout: default
                 {% endif %}
                 {{ content }}
 
+                {% if page.privacy %}
+
+                {% markdown %}
+
+## Privacy
+
+                {% endmarkdown %}
+
+               {% include privacy-info.html app=page %}
+
+See the <a href="{% link _pages/policy-privacy-add-ons.html %}">add-on privacy policy</a> for more information.
+
+                {% endif %}
+
                 {% if page.gallery %}
                 <div class="cf">
                     {% markdown %}
 ## Screenshots
                     {% endmarkdown %}
+
                     {% include gallery %}
                     <p class="text-center">Click on a screenshot to enlarge it.</p>
                 </div>

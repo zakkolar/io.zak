@@ -1,0 +1,47 @@
+---
+title:  Add-ons Privacy Policy
+permalink: "/privacy/addon-privacy-policy/"
+toc: true
+toc_label: Contents
+---
+
+<h2 style="margin-top:0">Add-on Privacy Practices</h2>
+
+This is summary of the privacy practices for various add-ons offered on this site. See the full <a href="#full-add-on-privacy-policy">add-on privacy policy</a> below.
+
+<style type="text/css">
+    .privacy h3{
+        margin-top:30px;
+    }
+</style>
+
+{% assign all_projects = site.projects | concat: site.addons %}
+{% assign sorted_projects = all_projects | sort:"title" %}
+
+{% for project in sorted_projects %}
+
+{% if project.privacy %}
+<div class="privacy">
+    {% markdown %}
+
+### {{project.title}}
+
+    {% endmarkdown %}
+    <div class="content">
+        {% include privacy-info.html app=project %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+
+
+{% markdown %}
+## Full Add-on Privacy Policy
+
+This privacy policy applies to add-ons offered on this website. See the [site-wide privacy policy]({% link _pages/policy-privacy.md %}) for privacy information regarding this website.
+
+{% endmarkdown %}
+
+<a href="https://www.iubenda.com/privacy-policy/33739156" class="iubenda-white no-brand iubenda-embed iub-body-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+

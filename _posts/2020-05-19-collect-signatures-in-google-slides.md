@@ -47,4 +47,10 @@ When you attempt to give the add-on permission to run the first time, you may se
 
 ![Screenshot of a screen that says "This app isn't verified" with an arrow pointing to links that say "advanced" and "go to Signature Collector (unsafe)"](/assets/images/posts/2020-05-18-collect-signatures-in-google-slides/app-not-verified.png){: style="max-width:400px;"}
 
+### Security
+
+The form to collect signatures is public (if you set it up using the recommendations in the video). However, the collected signatures are only visible to people who have view/edit access to the slideshow you set up with the template. This means that while anyone can sign, you can control who has access to the collected signatures.
+
+While Google has many measures in place to protect your security and privacy, it is best practice to use an "autograph" that is distinct from the signature you'd use on legally binding documents for this add-on. This is good practice for anywhere you're signing for recreational purposes, both online and offline, to prevent potential misuse of your signature.
+
 Good luck with your signature project!

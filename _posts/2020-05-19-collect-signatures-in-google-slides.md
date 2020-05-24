@@ -17,6 +17,7 @@ header:
 categories: Add-ons
 tags:
     - Google Slides
+add-on: google-slides-signature-collector
 ---
 
 With the end of the school year coming up and distance learning continuing through the end, we've been looking for ways to continue traditions virtually. One tradition for our 5th graders is creating a T shirt with each student's signature. To help with this, I created an Apps Script template for Google Slides to collect signatures from a distance.
@@ -35,22 +36,8 @@ Make a copy of this [template](https://go.zak.io/signatures){: target="_blank"} 
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/iRbConvL5ic" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
 
-## Privacy/security
+## Privacy and Security
 
-This add-on only transfers data from the submission page to the Google Slides you set up. It does not go back to me or any third parties. When you create a copy of the template, you are also creating a copy of the Apps Script code. Just like any other G Suite file, this means you will be the sole owner of the copy and no one who could edit the original file will be able to edit your copy (unless you share it with them).
-
-
-
-### This app isn't verified
-
-When you attempt to give the add-on permission to run the first time, you may see a scary-looking screen that says "this app isn't verified". This just means it has not been submitted to Google for review. All of the data will only exist inside the web browser of the user signing the page and on Google's App Script servers. To bypass this message, click "Advanced" and then "Go to Signature Collector (unsafe)".
-
-![Screenshot of a screen that says "This app isn't verified" with an arrow pointing to links that say "advanced" and "go to Signature Collector (unsafe)"](/assets/images/posts/2020-05-18-collect-signatures-in-google-slides/app-not-verified.png){: style="max-width:400px;"}
-
-### Security
-
-The form to collect signatures is public (if you set it up using the recommendations in the video). However, the collected signatures are only visible to people who have view/edit access to the slideshow you set up with the template. This means that while anyone can sign, you can control who has access to the collected signatures.
-
-While Google has many measures in place to protect your security and privacy, it is best practice to use an "autograph" that is distinct from the signature you'd use on legally binding documents for this add-on. This is good practice for anywhere you're signing for recreational purposes, both online and offline, to prevent potential misuse of your signature.
+See the [add-on's page]({% link _addons/google-slides-signature-collector.md %}#privacysecurity) for information about privacy and security.
 
 Good luck with your signature project!

@@ -1,7 +1,7 @@
 <div class="gt_newpost" style=" outline: 0; vertical-align: baseline; width: 100%; margin-top:20px; display:inline-table;">
     <div class="form-overlay"></div>
 
-    <form method="post" action="https://lists.zak.io/?p=subscribe&id=2" target="_blank" name="subscribeform">
+    <form id="subscribe_form" method="post" action="https://lists.zak.io/?p=subscribe&id=2" target="_blank" name="subscribeform">
                 <input type="hidden" name="htmlemail" value="1" />
     <input type="hidden" name="list[3]" value="signup" /><input type="hidden" name="listname[3]" value="Zak.io Blog Updates"/>
 
@@ -10,8 +10,31 @@
         <p style="margin: 0px;"> {{ include.title | default: "Get new posts by email:"}}</p>
 
 
-        <input type="text" name="email" placeholder="Enter your email" value="" style="margin: 15px 0 0 0; line-height: 38px; font-size: 16px; width: 100%; text-align: center;">
+        <input type="text" id="email" name="email" placeholder="Enter your email" value="" style="margin: 15px 0 0 0; line-height: 38px; font-size: 16px; width: 100%; text-align: center;">
+
+
+
 
         <input type="submit" value="Subscribe" name="subscribe" class="sub_inp_subt" style="line-height: 38px; margin: 15px 0 0 0; background-color: #48525d; color: #fff; width: 100%;  font-size: 20px; cursor: pointer;  box-shadow: 1px 1px 0px #666 !important;">
+
     </form>
+
+    <script type="text/javascript">
+
+        var form = document.getElementById('subscribe_form');
+        var email = document.getElementById('email');
+
+        if(typeof form.submit === "function"){
+            form.addEventListener('submit', function(e){
+                e.preventDefault();
+                email.blur();
+                form.submit();
+                email.value = '';
+
+
+            })
+        }
+
+
+    </script>
 </div>

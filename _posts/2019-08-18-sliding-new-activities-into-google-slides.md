@@ -25,17 +25,6 @@ Google Slides can be used for so much more than presentations. It's perfect for 
 Before we get started, these are some Slides activities I've done with elementary students in various grades that utilize some of the techniques I'll describe below. There are more examples in this [folder](https://drive.google.com/drive/folders/1UliOH1P0CyuoGB14MKce1faeNvh6dYb9). To get the full experience, make a copy of each and try the activity.
 
 
-### Discussion template
-
-![Screenshot of a slide with a red border titled Answer 1. Has a placeholder for the student's name and response to the question.](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/discussion.png){: style="width:400px; margin:0;"}
-
-
-This [discussion template](https://docs.google.com/presentation/d/1rG9oTUwHRePRjcytjsAjXSLebPA8XgzC97ccZBHLq9s/copy) (inspired by [Alice Keeler](https://alicekeeler.com/2015/11/02/google-slides-discussion-template/)) allows students to participate in a class-wide discussion. The teacher displays a question and each student creates a slide to type their answer. Each question has a unique master layout for its answer. This allows students to quickly respond to each question by selecting the associated "answer" master.
-
-In addition, each "answer" master has a unique color scheme. This makes it easy to differentiate between the questions when the whole class is collaborating in the same presentation.
-
-Also see the template for [questions](https://docs.google.com/presentation/d/1UGRADoE7QKUQLyIgUFLvNc8NQxaJZhjyLhSKn2HV7NA/copy) and the [teacher guide](https://docs.google.com/presentation/d/1rmpm1PD2vfN_xOVJIz1uwZQFcGbpQCInKNC8dRiye0c/copy).
-
 ### Word sort
 
 ![Screenshot of a word sort activity. Three boxes are labeled "-at", "-an", and "different word". A list of words sits to the side to be dragged into the appropriate box.](/assets/images/posts/2019-08-18-sliding-new-activities-into-google-slides/word-sort.png){: style="width:400px; margin:0"}

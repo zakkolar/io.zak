@@ -7,8 +7,6 @@ author_profile: false
 layout: about
 
 badges:
-    - url: "/assets/images/badges/GoogleCertifiedEducator2.png"
-      alt: "Google Certified Educator Level 2 Badge"
     - url: "/assets/images/badges/AppleTeacherSwift.png"
       alt: "Apple Teacher Swift Playgrounds badge"
     - url: "/assets/images/badges/MassCueLevel01.png"

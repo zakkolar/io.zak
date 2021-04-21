@@ -3,26 +3,142 @@ layout: single
 ---
 {{content}}
 <div id='alert-container'></div>
-<form name="contact" action="https://contact.zak.io" accept-charset="UTF-8" method="post" id="contact_form">
+<form name="contact" action="{{site.contact_url}}" accept-charset="UTF-8" method="post" id="contact_form">
     <fieldset>
         <label for='name'>Name</label>
-        <input type='text' id='name' name='name'>
+        <input type='text' id='name' required name='name'>
     </fieldset>
     <fieldset>
         <label for='email'>Email address</label>
-        <input type='email' id='email' name='email'>
+        <input type='email' id='email' required name='email'>
     </fieldset>
     <fieldset>
         <label for='message'>Message</label>
-        <textarea name='message' id='message' rows='5'></textarea>
+        <textarea name='message' id='message' required rows='5'></textarea>
     </fieldset>
     <fieldset>
-        <div class="g-recaptcha" data-sitekey="6LeatiMTAAAAAJFNHQtcb9jTTGPMzaWHaxbz2jt8"></div>
-        <small class='help-block'>As much as I love computers, I prefer talking to humans. This helps me make sure that you're the latter.</small>
+
+
+        <fieldset>
+            <label id="captcha_label" for='captcha'></label>
+            <small class='help-block'>As much as I love computers, I prefer talking to humans. This helps me make sure that you're the latter.</small>
+            <input type="text" name='captcha_response' required id='captcha'>
+            <input type="hidden" id="captcha_s" name="captcha_s">
+        </fieldset>
     </fieldset>
     <fieldset>
         <input type='submit' class='btn--primary .btn' value="Send">
     </fieldset>
 </form>
 
-<script src='https://www.google.com/recaptcha/api.js' async></script>
+<script type="text/javascript">
+
+    function htmlToElem(html) {
+        var temp = document.createElement('template');
+        html = html.trim();
+        temp.innerHTML = html;
+        return temp.content.firstChild;
+    }
+
+    var form = document.getElementById('contact_form');
+
+    function loadCaptcha(skipLabel){
+
+        var captchaLabel = document.getElementById('captcha_label');
+
+        if(!skipLabel){
+            captchaLabel.innerText = 'Loading human check question...';
+        }
+
+        var xhr = new XMLHttpRequest();
+
+        xhr.open('POST', form.getAttribute('action')+'/captcha.php', true);
+
+        xhr.send();
+
+        xhr.onload = () => {
+            captchaLabel.innerHTML = "";
+            if(xhr.status === 200){
+
+                var response = JSON.parse(xhr.responseText);
+
+                document.getElementById('captcha_s').setAttribute('value',response.s);
+
+                var captchaText = document.createElement('span');
+                captchaText.innerText = response.captcha + " ";
+
+                var retry = document.createElement('a');
+                retry.href='#';
+                retry.innerText = '(try another)';
+                retry.onclick = (e) => {
+                    e.preventDefault();
+                    loadCaptcha();
+                }
+
+                captchaLabel.append(captchaText);
+                captchaLabel.append(retry);
+            }
+            else{
+                captchaLabel.innerText = "Error loading human check. Trying again...";
+                setTimeout(()=>{
+                    loadCaptcha(true);
+                }, 1000);
+            }
+        }
+
+    }
+
+    loadCaptcha();
+
+
+
+    var alertContainer = document.getElementById('alert-container');
+
+    form.onsubmit = (e)=>{
+        e.preventDefault();
+
+        var data = new FormData(form);
+        var xhr = new XMLHttpRequest();
+
+        alertContainer.innerHTML = "";
+
+        xhr.open(form.getAttribute('method'), form.getAttribute('action'), true);
+        xhr.send(data);
+
+
+
+        xhr.onload = () => {
+
+            if(xhr.status === 200){
+                alertContainer.innerHTML = "<div class='notice--success'><p>Message sent!</p></div>";
+                form.reset();
+                if(document.activeElement){
+                    document.activeElement.blur();
+                }
+                loadCaptcha();
+            }
+            else{
+                var errors = document.createElement('ul');
+
+                var response = JSON.parse(xhr.responseText);
+                var item;
+
+                for(var i=0; i<response.length; i++){
+                    item=response[i];
+                    var error = htmlToElem('<li>'+item+'</li>');
+                    errors.append(error);
+                }
+                var errorAlert=htmlToElem('<div class="notice--danger"></div>');
+
+                errorAlert.append(htmlToElem('<p>Please correct the following errors:</p>'));
+                errorAlert.append(errors);
+                alertContainer.append(errorAlert);
+            }
+
+            window.scrollTo(0,0);
+        }
+
+
+    };
+
+</script>

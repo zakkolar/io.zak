@@ -83,16 +83,7 @@ footer:
 
 
 search: true
-search_provider: algolia
-
-algolia:
-  application_id: 03UNUT396P
-  index_name: dev_zak.io
-  search_only_api_key: 2226afc7e62cdfd9d31cfd1b392706af
-  powered_by: true
-  files_to_exclude:
-    - _pages/policy-cookie.md
-    - _pages/addon-terms-of-service.md
+search_provider: lunr
 
 
 default_color: "#34495e"

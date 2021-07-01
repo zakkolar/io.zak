@@ -1,4 +1,2 @@
 url: "https://zak.io"
 contact_url: "https://contact.zak.io"
-algolia:
-  index_name: prod_zak.io
